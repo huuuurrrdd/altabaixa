@@ -1,0 +1,49 @@
+/*https://every-layout.dev/rudiments/global-and-local-styling/ */
+/*position elements: https://www.w3schools.com/css/css_positioning.asp */
+/*blend Mode em CSS: https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode */
+
+:root{
+  font-family: "Lato";
+  --font-size-base: 1rem;
+  --font-size-biggish: 10rem;
+  --font-size-big: 2.25rem;
+
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1{
+  position: absolute;
+  /*bottom:50%;*/
+  width: 100%;
+  font-size: var(--font-size-biggish);
+  text-align: center;
+}
+
+.artigo{
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  top:50%;
+}
+
+
+
+.artigo1{
+  right: 2%;
+
+}
+
+.artigo2{
+  left:2%;
+}
+
+
+canvas {
+  display: block;
+}
