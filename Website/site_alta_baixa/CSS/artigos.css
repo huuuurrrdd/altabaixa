@@ -1,0 +1,59 @@
+body{
+    overflow-y:hidden;
+    font-family: "Altabaixa2-Regular";
+}
+
+.t1{ /*titulo da revista*/
+    position: fixed;
+    z-index: 1;
+    right:20px;
+    width: 80px;
+    text-align: right;
+}
+
+.t2{ /*titulo da revista*/
+    position: fixed;
+    z-index: 1;
+    left:20px;
+    width: 80px;
+}
+
+
+.outer{ /*Container*/
+    width: 100vw;
+    height:100vh;
+}
+
+.slider{ /*content wrapper*/
+    width: 200vw;
+    white-space:nowrap;
+}
+
+section{
+    width:100vw;
+    height:100vh;
+    display: inline-block;
+    position:relative;
+}
+
+/*Não sei o que isto faz*/
+section div{
+    width: 50vw;
+    font-size: 50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    text-wrap: wrap;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+
+
+h1{
+    
+    font-size: large;
+    text-wrap: wrap;
+}
+
