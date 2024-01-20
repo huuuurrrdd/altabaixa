@@ -39,10 +39,9 @@ body{
 
 /*********CONTENTOR-1*********/
 
+/*for desktop*/
 .s-1{
     background-color: white;
-    
-    
 }
 
 .titulo-cima, .titulo-baio{
@@ -53,10 +52,31 @@ body{
     top:38.5%;
     font-family: Altabaixa2;
     font-size: 20.625rem;
+}
+
+/*for tablet: 1024px ... tirar o vertical scroll*/
+@media only screen and (max-width: 1024px){
+    .titulo-cima, .titulo-baio{
+        font-size: calc(6.875rem * 0.60);
+    }
+    
+    .looking{
+        font-size: calc(20.625rem* 0.60);
+    }
     
 }
 
-
+/*for mobile -> usar sempre na horizontal!*/
+@media only screen and (max-width: 768px){
+    .titulo-cima, .titulo-baio{
+        font-size: calc(6.875rem * 0.40);
+    }
+    
+    .looking{
+        font-size: calc(20.625rem* 0.40);
+    }
+    
+}
 
 /**/
 .s-2{
