@@ -1,5 +1,6 @@
 /********DEFINICOES GERAIS********/
 
+/*Para desktop:*/
 body{
     font-family: "Lato";
 }
@@ -32,6 +33,30 @@ body{
     transform: scaleX(-1);
     mix-blend-mode: multiply;
 }
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .titulo{
+        font-size: calc(6rem*0.60);
+    }
+    .number{
+        font-size: calc(2.25rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .titulo{
+        font-size: calc(6rem*0.40);
+    }
+
+    .number{
+        font-size: calc(2.25rem*0.40);
+    }
+    
+}
+
+
 
 
 /*
@@ -106,7 +131,20 @@ body{
     line-height: normal;
     font-weight: 600;
 }
-
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .works{
+        font-size: calc(17rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .works{
+        font-size: calc(17rem*0.40);
+    }
+    
+}
 
 /*****CONTENTOR 7*****/
 /*S-5 02 History capa*/
