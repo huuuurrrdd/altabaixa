@@ -7,6 +7,13 @@ body{
 .titulo{
     text-transform: uppercase;
     text-align: center;
+    font-size: 6rem;
+}
+
+.number{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.25rem;
     
 }
 
@@ -86,3 +93,20 @@ body{
 .s-3{
  background-color: blue;  
 }
+
+/*******CONTENTOR 5*******/
+/*s-5 01-works: capa*/
+
+/*for desktop*/
+.works{
+    top:47%;
+    font-family: "Franklin Gothic Demi"; /*n ta a funcionar :c*/
+    font-size: 17rem;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 600;
+}
+
+
+
+
