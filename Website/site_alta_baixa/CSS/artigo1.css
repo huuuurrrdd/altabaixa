@@ -127,7 +127,6 @@ body{
     top:47%;
     font-family: "Franklin Gothic Demi"; /*n ta a funcionar :c*/
     font-size: 17rem;
-    text-transform: uppercase;
     line-height: normal;
     font-weight: 600;
 }
@@ -151,12 +150,26 @@ body{
 
 /*for desktop*/
 .history{
-    top:47%;
+    top:47.25%;
     font-family: "Eurostile LT Std"; /*n ta a funcionar :c*/
     font-size: 15.5rem;
-    text-transform: uppercase;
     line-height: normal;
     font-weight: 700;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .history{
+        font-size: calc(15.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .history{
+        font-size: calc(15.5rem*0.40);
+    }
+    
 }
 
 
@@ -165,21 +178,87 @@ body{
 /*S-9 03 Name capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.name{
+    top:47%;
+    font-family: Tiffany; /*n ta a funcionar :c*/
+    font-size: 15.5rem;
+    line-height: normal;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .name{
+        font-size: calc(15.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .name{
+        font-size: calc(15.5rem*0.40);
+    }
+    
+}
 
 
 /*****CONTENTOR 11*****/
 /*S-11 04 Design capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.designed{
+    top:44.5%;
+    font-family: "MrsEaves-Bold"; /*n ta a funcionar :c*/
+    font-size: 12.5rem;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .designed{
+        font-size: calc(12.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .designed{
+        font-size: calc(12.5rem*0.40);
+    }
+    
+}
 
 
 /*****CONTENTOR 13*****/
 /*S-13 05 There capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.there{
+    top:43.25%;
+    font-family: Univers 65 Bold;
+    font-size: 18.75rem;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .there{
+        font-size: calc(18.75rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .there{
+        font-size: calc(18.75rem*0.40);
+    }
+    
+}
+
+
+
 
 
 /*****CONTENTOR 16*****/
