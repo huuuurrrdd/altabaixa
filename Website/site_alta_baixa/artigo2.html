@@ -17,8 +17,11 @@
   </head>
 
   <body>
-    <header></header> <!--Para algum menu que seja necessário-->
-    <a href="Home.html"> <h2 class = "t2">Alta <br><span>&</span><br> baixa</h2></a>
+    <header>
+      <a href="Home.html"><img src="img/Baixa.png" alt="Header Part 1"></a>      
+      <a href="artigo1.html"><img src="img/primeiroartigo.png" alt="Header Part 2"></a>
+      <a href="artigo2.html"><img src="img/segundoartigo.png" alt="Header Part 3"></a>
+    </header> <!--Para algum menu que seja necessário-->
     <!--<div class = "artigo artigo1">Artigo 1</div>-->
     <div class = "artigo artigo2">Artigo 2</div>
 
@@ -26,15 +29,26 @@
       <div class="slider">
         <section class = "s2-1">
           <div class="content2 c2-1">
-            <h1>(1) Capa</h1>
-            <p>Conteúdo</p>
+            <img src = "img/segundoartigotitulo.png">
           </div>
         </section>
         
         <section class = "s2-2">
           <div class="content2 c2-2">
-            <h1>(2) Abstract</h1>
-            <p>Conteúdo</p>
+            <h1 class="title normal-title">Abstract</h1>
+            <h1 class="title inverted-title">Abstract</h1>
+          </div>
+          <div class="text-container">
+            <p>Type Design is a domain that multiple times has profited from the emergence of new tools and technologies.<br>
+               The transformation of type from physical to digital, the dissemination of font design software and the adoption<br>
+               of web typography make type design better known and more accessible. This domain has received an even <br>
+               greater push with the increasing adoption of generative tools to create more diverse and experimental fonts.<br>
+                Nowadays, with the application of Machine Learning to various domains, typography has also been influ-<br>
+                enced by it. In this work, we produce a dataset by extracting letter skeletons from a collection of existing fonts.<br>
+                Then we trained a Variational Autoencoder and a Sketch Decoder to learn to create these skeletons that can be<br>
+                used to generate new ones by exploring the latent space. This process also allows us to control the style of the<br>
+                resulting skeletons and interpolate between different characters. Finally, we developed new glyphs by filling the<br>
+                 generated skeletons based on the original letters’ stroke width and showing some applications of the results. </p>
           </div>
         </section>
 

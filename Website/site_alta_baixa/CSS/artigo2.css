@@ -1,12 +1,107 @@
 .s2-1{
-    background-color: aqua;
-    font-family: "Cascadia Code Regular";
-}
-
-.s2-2{
-    background-color: beige;
+    background-color: #fff;
 }
 
 .s2-3{
  background-color: blue;  
 }
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header a, header img {
+    margin-right: 60px; 
+}
+
+header a:first-child, header img:first-child {
+    margin-right: 60px;
+}
+body {
+    padding-top: 100px; 
+    margin: 0; 
+}
+header img {
+    vertical-align: middle; 
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .content2.c2-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+
+
+  .s2-2 {
+    position: relative; 
+    background-color: #fff;    
+}
+
+
+    .content2.c2-2 {
+        position: absolute; 
+        left: 100px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .title {
+        position: relative;
+        text-align: left;
+        top: 0px;
+        left: 0px;
+        font-family: 'Lato', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        
+        
+    }
+
+    .normal-title {
+        color: #5FC6F1;
+        z-index: 1;
+    }
+
+    .inverted-title {
+        position: absolute;
+        color: #E00918; 
+        transform: scaleX(-1);
+        mix-blend-mode: multiply;
+        display: block; 
+        z-index: 2;
+    }
+
+    .text-container {
+        position: absolute;
+        margin-top: 30px;
+        left: 260px;
+        max-width: 800px;
+        text-align: justify;
+        
+    }
+
+    .text-container p {
+        margin: 0;
+        text-align: justify;
+        text-justify: inter-word;
+    }
