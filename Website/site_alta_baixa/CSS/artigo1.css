@@ -15,6 +15,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     font-size: 2.25rem;
+    letter-spacing: 0.45rem;
     
 }
 
@@ -41,6 +42,7 @@ body{
     }
     .number{
         font-size: calc(2.25rem*0.60);
+        letter-spacing: calc(0.45rem*0.60);
     }
     
 }
@@ -52,6 +54,7 @@ body{
 
     .number{
         font-size: calc(2.25rem*0.40);
+        letter-spacing: calc(0.45rem*0.40);
     }
     
 }
@@ -265,7 +268,29 @@ body{
 /*S-16 06 Made capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.made{
+    top:37.4%;
+    font-family: "Eras Bold ITC";
+    font-size: 18.75rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .made{
+        font-size: calc(18.75rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .made{
+        font-size: calc(18.75rem*0.40);
+    }
+    
+}
 
 
 
@@ -273,7 +298,29 @@ body{
 /*S-18 07 Reminds capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.reminds{
+    top:37.4%;
+    font-family: "Eras Bold ITC";
+    font-size: 18.75rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .reminds{
+        font-size: calc(18.75rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .reminds{
+        font-size: calc(18.75rem*0.40);
+    }
+    
+}
 
 
 
