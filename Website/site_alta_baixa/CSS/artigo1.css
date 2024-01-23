@@ -358,7 +358,28 @@ body{
 /*S-22 09 Ugly capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.ugly{
+    top:40%;
+    font-family:"Bookman Swash", serif;
+    font-size: 16.25rem;
+    font-style:italic;
+    text-transform: capitalize;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .ugly{
+        font-size: calc(16.25rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .ugly{
+        font-size: calc(16.25rem*0.40);
+    }
+    
+}
 
 
 
@@ -366,24 +387,115 @@ body{
 /*S-24 10 Boring capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.boring{
+    top:43.2%;
+    font-family:"TradeGothic LT", sans-serif;
+    font-size: 18.75rem;
+    font-style: normal;
+    line-height: normal;
+    font-weight:bold;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .boring{
+        font-size: calc(18.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .boring{
+        font-size: calc(18.5rem*0.40);
+    }
+    
+}
 
 
 /*****CONTENTOR 27*****/
 /*S-27 11 Special capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.special{
+    top:47.4%;
+    font-family: "CaslonCPswash";
+    font-size: 17.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .special{
+        font-size: calc(17.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .special{
+        font-size: calc(17.5rem*0.40);
+    }
+    
+}
 
 
 /*****CONTENTOR 29*****/
 /*S-29 12 Believe capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.believe{
+    top:47.4%;
+    font-family: "CaslonCPswash";
+    font-size: 17.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .believe{
+        font-size: calc(17.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .believe{
+        font-size: calc(17.5rem*0.40);
+    }
+    
+}
 
 /*****CONTENTOR 31*****/
 /*S-31 13 Can't not capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.cant{
+    top:47.4%;
+    font-family: "CaslonCPswash";
+    font-size: 17.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .cant{
+        font-size: calc(17.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .cant{
+        font-size: calc(17.5rem*0.40);
+    }
+    
+}
