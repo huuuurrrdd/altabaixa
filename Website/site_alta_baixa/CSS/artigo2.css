@@ -296,3 +296,187 @@ header img {
         height: auto;
         max-height: 85%;
     }
+
+    .content2.c2-6 {
+        position: absolute; 
+        left: 2000px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-approach{
+        position: absolute;
+        margin-top: 60px;
+        left: 2100px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-approach p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .content2.c2-7 {
+        position: absolute; 
+        left: 1200px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-data{
+        position: absolute;
+        margin-top: 60px;
+        left: 1300px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-data p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .content2.c2-8 {
+        position: absolute; 
+        left: 450px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-networkarchitecture{
+        position: absolute;
+        margin-top: 60px;
+        left: 650px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-networkarchitecture p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .image-container-architecture{
+        position: absolute;
+        left: 650px;
+        right: 0px; 
+        top: 350px;
+        margin-top: 30px;
+        bottom: 0px;
+        width: 800px; 
+        overflow: hidden; 
+    }
+
+    .image-container-architecture img {
+        height: auto;
+        width: 100%;
+    }
+
+    .text-container-networkarchitecture1{
+        position: absolute;
+        margin-top: 60px;
+        left: 1150px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-networkarchitecture1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    
+    .text-container-networkarchitecture2{
+        position: absolute;
+        margin-top: 60px;
+        left: 1650px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-networkarchitecture2 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-networkarchitecture3{
+        position: absolute;
+        margin-top: 60px;
+        left: 2150px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-networkarchitecture3 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .video-container3 {
+        position: absolute;
+        left: 2150px;
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+    .video-container3 video {
+        width: 100%;
+        height: auto;
+        max-height: 85%;
+    }
