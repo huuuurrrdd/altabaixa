@@ -46,6 +46,7 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -60,7 +61,7 @@ header img {
 
     .content2.c2-2 {
         position: absolute; 
-        left: 100px;
+        left: -100px;
         top: 0px;
         width: auto; 
         height: auto;
@@ -74,7 +75,7 @@ header img {
     .title {
         position: relative;
         text-align: left;
-        top: 0px;
+        top: 70px;
         left: 0px;
         font-family: 'Lato', sans-serif;
         font-size: 32px;
@@ -97,9 +98,10 @@ header img {
 
     .text-container {
         position: absolute;
-        margin-top: 30px;
-        left: 260px;
-        max-width: 800px;
+        margin-top: 60px;
+        left: 50px;
+        max-width: 450px;
+        text-wrap: wrap;
         text-align: justify;
         
     }
@@ -107,13 +109,15 @@ header img {
     .text-container p {
         margin: 0;
         font-family: 'Lato', sans-serif;
+        text-wrap: wrap;
         text-align: justify;
         text-justify: inter-word;
     }
 
     .video-container {
         position: absolute;
-        left: 900px;
+        left: 650px;
+        margin-top: 10px;
         height: auto;
         top: 0;
         bottom: 0;
@@ -123,28 +127,31 @@ header img {
     .video-container video {
         width: 100%;
         height: auto;
-        max-height: 77%;
+        max-height: 85%;
     }
 
     .container1-text {
         position: absolute;
-        margin-top: 30px;
-        left: 300px;
-        max-width: 800px;
-        text-align: justify;
-        
+        margin-top: 60px;
+        left: 20px;
+        max-width: 450px;
+        text-wrap: wrap;
+        text-align: justify; 
     }
 
     .container1-text p {
         margin: 0;
         font-family: 'Lato', sans-serif;
         text-align: justify;
+        text-wrap: wrap;
         text-justify: inter-word;
     }
     .image-container {
         position: absolute;
+        left: 500px;
         right: 0px; 
-        top: 0px;
+        top: 30px;
+        margin-top: 30px;
         bottom: 0px;
         width: 50%; 
         overflow: hidden; 
@@ -157,9 +164,10 @@ header img {
 
     .container2-text {
         position: absolute;
-        margin-top: 30px;
-        left: 1300px;
-        max-width: 800px;
+        margin-top: 60px;
+        left: 1000px;
+        max-width: 480px;
+        text-wrap: wrap;
         text-align: justify;
         
     }
@@ -168,20 +176,23 @@ header img {
         margin: 0;
         font-family: 'Lato', sans-serif;
         text-align: justify;
+        text-wrap: wrap;
         text-justify: inter-word;
     }
 
     .container3-text {
         position: absolute;
-        margin-top: 30px;
-        left: 1930px;
-        max-width: 800px;
+        margin-top: 60px;
+        left: 1520px;
+        width: 480px;
+        max-width: 480px;
         text-align: justify;
         
     }
 
     .container3-text p {
         margin: 0;
+        text-wrap: wrap;
         font-family: 'Lato', sans-serif;
         text-align: justify;
         text-justify: inter-word;
@@ -189,8 +200,10 @@ header img {
 
     .image-container1 {
         position: absolute;
-        left: 1300px; 
-        top: 280px;
+        left: 1000px; 
+        top: 350px;
+        width: 600px;
+        height: 480px;
         bottom: 0px;
         overflow: hidden; 
     }
@@ -203,10 +216,11 @@ header img {
 
     .video-container1 {
         position: absolute;
-        left: 2200px;
+        left: 1800px;
+        margin-top: 10px;
         height: auto;
-        top: 0;
-        bottom: 0;
+        top: 0px;
+        bottom: 0px;
         width: 100%;
         overflow: hidden;
     }
@@ -214,12 +228,13 @@ header img {
     .video-container1 video {
         width: 100%;
         height: auto;
-        max-height: 77%;
+        max-height: 85%;
     }
+    
 
     .content2.c2-5 {
         position: absolute; 
-        left: 2000px;
+        left: 1680px;
         top: 0px;
         width: auto; 
         height: auto;
@@ -231,9 +246,11 @@ header img {
 
     .text-containerrelatedwork{
         position: absolute;
-        margin-top: 30px;
-        left: 2180px;
-        max-width: 800px;
+        margin-top: 60px;
+        left: 1800px;
+        width: 450px;
+        max-width: 450px;
+        text-wrap: wrap;
         text-align: justify;
     }
 
@@ -241,14 +258,17 @@ header img {
         margin: 0;
         font-family: 'Lato', sans-serif;
         text-align: justify;
+        text-wrap: wrap;
         text-justify: inter-word;
     }
 
     .text-containerrelatedwork1{
         position: absolute;
-        margin-top: 30px;
-        left: 2900px;
-        max-width: 800px;
+        margin-top: 60px;
+        left: 2300px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
         text-align: justify;
     }
 
@@ -256,5 +276,23 @@ header img {
         margin: 0;
         font-family: 'Lato', sans-serif;
         text-align: justify;
+        text-wrap: wrap;
         text-justify: inter-word;
+    }
+
+    .video-container2 {
+        position: absolute;
+        left: 2350px;
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+        top: 0px;
+        bottom: 0px;
+        overflow: hidden;
+    }
+    
+    .video-container2 video {
+        width: 100%;
+        height: auto;
+        max-height: 85%;
     }
