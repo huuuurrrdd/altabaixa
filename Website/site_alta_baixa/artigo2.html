@@ -39,22 +39,16 @@
             <h1 class="title inverted-title">Abstract</h1>
           </div>
           <div class="text-container">
-            <p>Type Design is a domain that multiple times has profited from<br>
-               the emergence of new tools and technologies. The transforma-<br>
-               tion of type from physical to digital, the dissemination of font<br>
-                design software and the adoption of web typography make type<br>
-                design better known and more accessible. This domain has recei-<br>
-                ved an even greater push with the increasing adoption of genera-<br>
-                tive tools to create more diverse and experimental fonts. Nowa-<br>
-                days, with the application of Machine Learning to various doma-<br>
-                ins, typography has also been influenced by it. In this work, we<br>
-                produce a dataset by extracting letter skeletons from a collection<br>
-                of existing fonts. Then we trained a Variational Autoencoder and a<br>
-                Sketch Decoder to learn to create these skeletons that can be used<br>
-                to generate new ones by exploring the latent space. This process<br>
-                also allows us to control the style of the resulting skeletons and <br>
-                interpolate between different characters. Finally, we developed<br>
-                new glyphs by filling the generated skeletons based on the original<br>
+            <p>Type Design is a domain that multiple times has profited from
+               the emergence of new tools and technologies. The transformation of type from physical to digital, the dissemination of font
+                design software and the adoption of web typography make type
+                design better known and more accessible. This domain has received an even greater push with the increasing adoption of generative tools to create more diverse and experimental fonts. Nowadays, with the application of Machine Learning to various domains, typography has also been influenced by it. In this work, we produce a dataset by extracting letter skeletons from a collection<br>
+                of existing fonts. Then we trained a Variational Autoencoder and a
+                Sketch Decoder to learn to create these skeletons that can be used
+                to generate new ones by exploring the latent space. This process
+                also allows us to control the style of the resulting skeletons and 
+                interpolate between different characters. Finally, we developed
+                new glyphs by filling the generated skeletons based on the original
                 letters’ stroke width and showing some applications of the results. </p>
           </div>
           <div class="video-container">
@@ -71,65 +65,51 @@
               <h1 class="title inverted-title">Introduction</h1>
             </div>
             <div class="container1-text">
-              <p>The design of type has undergone numerous changes over time.<br>
-                In the early years, typography was seen as a system made up of a<br>
-                series of rules. The artistic movements that arrived at the begin-<br>
-                ning of the twentieth century rejected the historical forms and trans-<br>
-                formed outdated aspects of visual language and expression. Howe-<br>
-                ver, projects that combined software, arts and design only appeared<br>
-                a few years later with the proliferation of personal computers, allow-<br>
-                ing programming to reach a wider audience. Thanks to all these chan-<br>
-                ges, the tools to design type changed, and new possibilities for typo-<br>
-                graphic experimentation appeared, resulting in (i) grammar-based tech-<br>
-                niques that explore the principle of database amplification; (ii) evoluti-<br>
-                onary systems that breed design solutions under the direction of a <br>
-                designer; (iii) or even, Machine Learning (ML) systems that learn the<br>
-                glyphs features to build new ones. These computational approaches <br>
+              <p>The design of type has undergone numerous changes over time.
+                In the early years, typography was seen as a system made up of a
+                series of rules. The artistic movements that arrived at the begin
+                ning of the twentieth century rejected the historical forms and transformed outdated aspects of visual language and expression. However, projects that combined software, arts and design only appeared
+                a few years later with the proliferation of personal computers, allowing programming to reach a wider audience. Thanks to all these changes, the tools to design type changed, and new possibilities for typographic experimentation appeared, resulting in (i) grammar-based techniques that explore the principle of database amplification; (ii) evolutionary systems that breed design solutions under the direction of a 
+                designer; (iii) or even, Machine Learning (ML) systems that learn the
+                glyphs features to build new ones. These computational approaches 
                 can also be helpful as a starting point of inspiration.<br><br>
-                Most emerging fonts continue to be developed by type designers who <br>
-                study the shape of each letter and its design with great precision, des-<br>
-                pite the emergence of these new possibilities. Type design is a hugely <br>
-                complex discipline, and its expertise ensures typography quality. <br>
-                Moreover, with the proliferation of web typography and online reading,<br>
-                the use of variable and dynamic fonts has increased, allowing more opti-<br>
-                ons for font designers and font users. Additionally, visual identities crea-<br>
-                ted nowadays are becoming more dynamic. Museums, institutions, organi-<br>
-                zations, events and media increasingly rely on this type of identity. 
+                Most emerging fonts continue to be developed by type designers who 
+                study the shape of each letter and its design with great precision, despite the emergence of these new possibilities. Type design is a hugely 
+                complex discipline, and its expertise ensures typography quality.
+                Moreover, with the proliferation of web typography and online reading,
+                the use of variable and dynamic fonts has increased, allowing more options for font designers and font users. Additionally, visual identities created nowadays are becoming more dynamic. Museums, institutions, organizations, events and media increasingly rely on this type of identity. 
                  </p>
             </div>
             <div class="image-container">
               <img src="img/Fig 1.png">
           </div>
           <div class="container2-text">
-            <p>Consequently, designers should adapt their work to these new possibilities<br>
-              by creating dynamic identities with animations and mutations. Even though<br>
-              new computer systems create expressive and out-of-the-box results, they do <br>
-              not have the knowledge of an expert. But this is also an advantage, allowing<br>
-              non-arbitrary exploitation that extends the range of possibilities. It is neces-<br>
-              sary to create a balance to take advantage of the computational systems and<br>
-              the expert labour. Moreover, most generative systems that design type focus<br>
+            <p>Consequently, designers should adapt their work to these new possibilities
+              by creating dynamic identities with animations and mutations. Even though
+              new computer systems create expressive and out-of-the-box results, they do 
+              not have the knowledge of an expert. But this is also an advantage, allowing
+              non-arbitrary exploitation that extends the range of possibilities. It is necessary to create a balance to take advantage of the computational systems and
+              the expert labour. Moreover, most generative systems that design type focus
               on the letters’ filling and don’t see the structure of a glyph as a variation parameter.<br><br>
-              To overcome these limitations, we propose an Autoregressive model that creates<br>
-              new glyph skeletons by the interpolation of existing ones. Our skeleton-based<br>
-              approach uses glyphs skeletons of existing fonts as input to ensure the quality of <br>
+              To overcome these limitations, we propose an Autoregressive model that creates
+              new glyph skeletons by the interpolation of existing ones. Our skeleton-based
+              approach uses glyphs skeletons of existing fonts as input to ensure the quality of 
               the generated results.
               </p>
           </div>
           <div class="container3-text">
-            <p>The division of the structure and the filling of the glyphs add variability to the<br>
-              results. Different glyphs can be created by just changing the structure or the <br>
-              filling. The proposed approach enables the exploration of a continuous range <br>
-              of font styles by navigating on the Autoencoder (AE) learnt latent space. With<br>
-              the results of this approach, it is also possible to apply different filling methods<br>
+            <p>The division of the structure and the filling of the glyphs add variability to the
+              results. Different glyphs can be created by just changing the structure or the 
+              filling. The proposed approach enables the exploration of a continuous range 
+              of font styles by navigating on the Autoencoder (AE) learnt latent space. With
+              the results of this approach, it is also possible to apply different filling methods
               that use the stroke width of the original letters to produce new glyphs.<br><br>
 
-              The remainder of this paper is divided into three sections. The following section,<br>
-              Related Work, analyzes related projects in the domain of computational typogra-<br>
-              phy with Artificial Neural Networks (ANNs). The second section, Approach, descri-<br>
-              bes the construction of the used dataset and explains the training process. Then, <br>
-              in the Results section, we present and discuss the different experimentations per-<br>
-              formed and the obtained results. In this section, we also present a set of different<br>
-              possible applications of the outputs of our system. In the final section, Conclusion<br>
+              The remainder of this paper is divided into three sections. The following section,
+              Related Work, analyzes related projects in the domain of computational typogra
+              phy with Artificial Neural Networks (ANNs). The second section, Approach, describes the construction of the used dataset and explains the training process. Then, 
+              in the Results section, we present and discuss the different experimentations performed and the obtained results. In this section, we also present a set of different
+              possible applications of the outputs of our system. In the final section, Conclusion
               and Discussion, we draw some conclusions and lay out future work.
              
               </p>
@@ -151,61 +131,65 @@
             <h1 class="title inverted-title">Related Work</h1>
           </div>
           <div class="text-containerrelatedwork">
-            <p>Over time, the methods and technologies available for type design<br>
-              have improved and designers have to evolve and adapt their process <br>
-              of thinking in accordance. Generative Adversarial Networks (GANs)<br>
-              have revealed impressive advances, presenting high-resolution images<br>
-              nearly indistinguishable from the real ones. In the typographic field,<br>
-              they are helpful when one wishes to obtain coherent glyphs in a typeface.<br>
-              When designing a typeface, one has to simultaneously seek an aesthetically<br>
-              appealing result and coherence among the different glyphs. This can be <br>
-              facilitated by exploring the similarities between the same letter present<br>
-              across diverse fonts, and the transferred stylistic elements within the same<br>
-              font. Balashova et al. develop a stroke-based geometric model for glyphs, a<br>
-              fitting procedure to re-parametrise arbitrary fonts to capture these correla-<br>
-              tions. The framework uses a manifold learning technique that allows for<br>
-              interactively improving the fit quality and interpolating, adding or removing<br>
-              stylistic elements in existing fonts. Campbell and Kautz develop a similar<br>
-              contour-based framework allowing the editing of a glyph and the propaga-<br>
-              tion of stylistic elements across the entire alphabet. Phan et al. and <br>
-              Suveeranont and Igarashi present two different frameworks that give one <br>
-              or more outline-based glyphs of several characters as input, producing a <br>
-              complete typeface that bears a similar style to the inputs. Rehling and <br>
-              Hofstadter use one or more grid-based lowercase letters to generate the<br>
-              rest of the Roman alphabet, creating glyphs that share different style features.<br><br> 
+            <p>Over time, the methods and technologies available for type design
+              have improved and designers have to evolve and adapt their process 
+              of thinking in accordance. Generative Adversarial Networks (GANs)
+              have revealed impressive advances, presenting high-resolution images
+              nearly indistinguishable from the real ones. In the typographic field,
+              they are helpful when one wishes to obtain coherent glyphs in a typeface.
+              When designing a typeface, one has to simultaneously seek an aesthetically
+              appealing result and coherence among the different glyphs. This can be 
+              facilitated by exploring the similarities between the same letter present
+              across diverse fonts, and the transferred stylistic elements within the same
+              font. Balashova et al. develop a stroke-based geometric model for glyphs, a
+              fitting procedure to re-parametrise arbitrary fonts to capture these correlations. The framework uses a manifold learning technique that allows for
+              interactively improving the fit quality and interpolating, adding or removing
+              stylistic elements in existing fonts. Campbell and Kautz develop a similar
+              contour-based framework allowing the editing of a glyph and the propagation of stylistic elements across the entire alphabet. Phan et al. and 
+              Suveeranont and Igarashi present two different frameworks that give one 
+              or more outline-based glyphs of several characters as input, producing a 
+              complete typeface that bears a similar style to the inputs. Rehling and 
+              Hofstadter use one or more grid-based lowercase letters to generate the
+              rest of the Roman alphabet, creating glyphs that share different style features.<br>
 
-              Azadi et al. develop an end-to-end stacked conditional GAN model to generate<br>
-              a set of highly-stylised glyph images following a consistent style from very few examples.
+  
              </p>
           </div>
           <div class="text-containerrelatedwork1">
-            <p>We can also imitate the behaviour of a variable font using Recurrent<br>
-              Neural Networks (RNNs) and interpolate to obtain intermediate results.<br>
-              Lopes et al. model the drawing process of fonts by building sequential<br>
-              generative models of vector graphics. Their model provides a scale-<br>
-              invariant representation of imagery. The latent representation may be<br>
-               systematically exploited to achieve style propagation. Shamir and <br>
-               Rappoport present a parametric feature-based font design approach. <br>
-               The development of a visual design system and the use of constraints <br>
-               for preserving the designer’s intentions create a more natural environ-<br>
-               ment in which high-level parametric behaviours can be defined. By <br>
-               changing the glyph parameters they create several family instances.<br><br>  
+            <p>We can also imitate the behaviour of a variable font using Recurrent
+              Neural Networks (RNNs) and interpolate to obtain intermediate results.
+              Lopes et al. model the drawing process of fonts by building sequential
+              generative models of vector graphics. Their model provides a scale
+              invariant representation of imagery. The latent representation may be
+               systematically exploited to achieve style propagation. Shamir and 
+               Rappoport present a parametric feature-based font design approach. 
+               The development of a visual design system and the use of constraints 
+               for preserving the designer’s intentions create a more natural environment in which high-level parametric behaviours can be defined. By 
+               changing the glyph parameters they create several family instances.  
 
-              Also, outside the typographic field, there are some good examples<br>
-              exploring the latent space. Sketch-RNN is an RNN able to construct<br>
-              stroke-based drawings. The network produces sketches of common <br>
-              objects in a vector format and explores the latent space interpolation<br>
-              of various vector images. There is also increased attention to these <br>
-              networks and their application to facilitate the use and combination <br>
-              of fonts. A usual way to combine different fonts is by using fonts from<br>
-              the same family or created by the same designer. Another way is to<br>
-              find fonts that match x-height and ascenders/descenders. Fontjoy is<br>
-              another tool to facilitate the process of mixing and matching typefaces <br>
-              and choosing fonts to use side by side. FontMap and Font-VAE are tools<br>
-              developed with the goal of discovering alternative fonts with the<br>
+              Also, outside the typographic field, there are some good examples
+              exploring the latent space. Sketch-RNN is an RNN able to construction
+              stroke-based drawings. The network produces sketches of common 
+              objects in a vector format and explores the latent space interpolation
+              of various vector images. There is also increased attention to these 
+              networks and their application to facilitate the use and combination 
+              of fonts. A usual way to combine different fonts is by using fonts from
+              the same family or created by the same designer. Another way is to
+              find fonts that match x-height and ascenders/descenders. Fontjoy is
+              another tool to facilitate the process of mixing and matching typefaces 
+              and choosing fonts to use side by side. FontMap and Font-VAE are tools
+              developed with the goal of discovering alternative fonts with the
                same aesthetics.
-             </p>
+             </p>   
+                
           </div>
+          <div class="video-container2">
+            <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+                <source src="video/capaabstract1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div> 
+                  
         </section>
 
         <section class = "s2-6">
