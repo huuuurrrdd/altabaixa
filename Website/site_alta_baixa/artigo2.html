@@ -39,25 +39,105 @@
             <h1 class="title inverted-title">Abstract</h1>
           </div>
           <div class="text-container">
-            <p>Type Design is a domain that multiple times has profited from the emergence of new tools and technologies.<br>
-               The transformation of type from physical to digital, the dissemination of font design software and the adoption<br>
-               of web typography make type design better known and more accessible. This domain has received an even <br>
-               greater push with the increasing adoption of generative tools to create more diverse and experimental fonts.<br>
-                Nowadays, with the application of Machine Learning to various domains, typography has also been influ-<br>
-                enced by it. In this work, we produce a dataset by extracting letter skeletons from a collection of existing fonts.<br>
-                Then we trained a Variational Autoencoder and a Sketch Decoder to learn to create these skeletons that can be<br>
-                used to generate new ones by exploring the latent space. This process also allows us to control the style of the<br>
-                resulting skeletons and interpolate between different characters. Finally, we developed new glyphs by filling the<br>
-                 generated skeletons based on the original letters’ stroke width and showing some applications of the results. </p>
+            <p>Type Design is a domain that multiple times has profited from<br>
+               the emergence of new tools and technologies. The transforma-<br>
+               tion of type from physical to digital, the dissemination of font<br>
+                design software and the adoption of web typography make type<br>
+                design better known and more accessible. This domain has recei-<br>
+                ved an even greater push with the increasing adoption of genera-<br>
+                tive tools to create more diverse and experimental fonts. Nowa-<br>
+                days, with the application of Machine Learning to various doma-<br>
+                ins, typography has also been influenced by it. In this work, we<br>
+                produce a dataset by extracting letter skeletons from a collection<br>
+                of existing fonts. Then we trained a Variational Autoencoder and a<br>
+                Sketch Decoder to learn to create these skeletons that can be used<br>
+                to generate new ones by exploring the latent space. This process<br>
+                also allows us to control the style of the resulting skeletons and <br>
+                interpolate between different characters. Finally, we developed<br>
+                new glyphs by filling the generated skeletons based on the original<br>
+                letters’ stroke width and showing some applications of the results. </p>
           </div>
+          <div class="video-container">
+            <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+                <source src="video/capaabstract1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
         </section>
 
         <section class = "s2-3">
-          <div class="content2 c2-3">
-            <h1>(3) Transition1</h1>
-            <p>Conteúdo</p>
+            <div class="content2 c2-2">
+              <h1 class="title normal-title">Introduction</h1>
+              <h1 class="title inverted-title">Introduction</h1>
+            </div>
+            <div class="container1-text">
+              <p>The design of type has undergone numerous changes over time.<br>
+                In the early years, typography was seen as a system made up of a<br>
+                series of rules. The artistic movements that arrived at the begin-<br>
+                ning of the twentieth century rejected the historical forms and trans-<br>
+                formed outdated aspects of visual language and expression. Howe-<br>
+                ver, projects that combined software, arts and design only appeared<br>
+                a few years later with the proliferation of personal computers, allow-<br>
+                ing programming to reach a wider audience. Thanks to all these chan-<br>
+                ges, the tools to design type changed, and new possibilities for typo-<br>
+                graphic experimentation appeared, resulting in (i) grammar-based tech-<br>
+                niques that explore the principle of database amplification; (ii) evoluti-<br>
+                onary systems that breed design solutions under the direction of a <br>
+                designer; (iii) or even, Machine Learning (ML) systems that learn the<br>
+                glyphs features to build new ones. These computational approaches <br>
+                can also be helpful as a starting point of inspiration.<br><br>
+                Most emerging fonts continue to be developed by type designers who <br>
+                study the shape of each letter and its design with great precision, des-<br>
+                pite the emergence of these new possibilities. Type design is a hugely <br>
+                complex discipline, and its expertise ensures typography quality. <br>
+                Moreover, with the proliferation of web typography and online reading,<br>
+                the use of variable and dynamic fonts has increased, allowing more opti-<br>
+                ons for font designers and font users. Additionally, visual identities crea-<br>
+                ted nowadays are becoming more dynamic. Museums, institutions, organi-<br>
+                zations, events and media increasingly rely on this type of identity. 
+                 </p>
+            </div>
+            <div class="image-container">
+              <img src="img/Fig 1.png">
           </div>
-        </section>
+          <div class="container2-text">
+            <p>Consequently, designers should adapt their work to these new possibilities<br>
+              by creating dynamic identities with animations and mutations. Even though<br>
+              new computer systems create expressive and out-of-the-box results, they do <br>
+              not have the knowledge of an expert. But this is also an advantage, allowing<br>
+              non-arbitrary exploitation that extends the range of possibilities. It is neces-<br>
+              sary to create a balance to take advantage of the computational systems and<br>
+              the expert labour. Moreover, most generative systems that design type focus<br>
+              on the letters’ filling and don’t see the structure of a glyph as a variation parameter.<br><br>
+              To overcome these limitations, we propose an Autoregressive model that creates<br>
+              new glyph skeletons by the interpolation of existing ones. Our skeleton-based<br>
+              approach uses glyphs skeletons of existing fonts as input to ensure the quality of <br>
+              the generated results.
+              </p>
+          </div>
+          <div class="container3-text">
+            <p>The division of the structure and the filling of the glyphs add variability to the<br>
+              results. Different glyphs can be created by just changing the structure or the <br>
+              filling. The proposed approach enables the exploration of a continuous range <br>
+              of font styles by navigating on the Autoencoder (AE) learnt latent space. With<br>
+              the results of this approach, it is also possible to apply different filling methods<br>
+              that use the stroke width of the original letters to produce new glyphs.<br><br>
+
+              The remainder of this paper is divided into three sections. The following section,<br>
+              Related Work, analyzes related projects in the domain of computational typogra-<br>
+              phy with Artificial Neural Networks (ANNs). The second section, Approach, descri-<br>
+              bes the construction of the used dataset and explains the training process. Then, <br>
+              in the Results section, we present and discuss the different experimentations per-<br>
+              formed and the obtained results. In this section, we also present a set of different<br>
+              possible applications of the outputs of our system. In the final section, Conclusion<br>
+              and Discussion, we draw some conclusions and lay out future work.
+             
+              </p>
+          </div>
+          <div class="image-container1">
+            <img src="img/approachteste-03.png">
+        </div>
+          </section>
 
         <section class = "s2-4">
           <div class="content2 c2-4">

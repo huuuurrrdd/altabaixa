@@ -3,7 +3,8 @@
 }
 
 .s2-3{
- background-color: blue;  
+    position: relative; 
+    background-color: #fff;  
 }
 
 header {
@@ -72,9 +73,7 @@ header img {
         left: 0px;
         font-family: 'Lato', sans-serif;
         font-size: 32px;
-        font-weight: 700;
-        
-        
+        font-weight: 700;        
     }
 
     .normal-title {
@@ -105,4 +104,94 @@ header img {
         font-family: 'Lato', sans-serif;
         text-align: justify;
         text-justify: inter-word;
+    }
+
+    .video-container {
+        position: absolute;
+        left: 900px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+    .video-container video {
+        width: 100%;
+        height: auto;
+        max-height: 77%;
+    }
+
+    .container1-text {
+        position: absolute;
+        margin-top: 30px;
+        left: 300px;
+        max-width: 800px;
+        text-align: justify;
+        
+    }
+
+    .container1-text p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    .image-container {
+        position: absolute;
+        right: 0px; 
+        top: 0px;
+        bottom: 0px;
+        width: 50%; 
+        overflow: hidden; 
+    }
+
+    .image-container img {
+        height: 60%;
+        width: auto;
+    }
+
+    .container2-text {
+        position: absolute;
+        margin-top: 30px;
+        left: 1300px;
+        max-width: 800px;
+        text-align: justify;
+        
+    }
+
+    .container2-text p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .container3-text {
+        position: absolute;
+        margin-top: 30px;
+        left: 1930px;
+        max-width: 800px;
+        text-align: justify;
+        
+    }
+
+    .container3-text p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .image-container1 {
+        position: absolute;
+        left: 1300px; 
+        top: 280px;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+
+    
+    .image-container1 img {
+        height: 70%;
+        width: 100%s;
     }
