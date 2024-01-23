@@ -1,3 +1,30 @@
+/***HEADER***/
+
+header {
+    position: fixed;
+    z-index: 2;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header a, header img {
+    margin-right: 60px; 
+}
+
+header a:first-child, header img:first-child {
+    margin-right: 60px;
+}
+
+
+
 /********DEFINICOES GERAIS********/
 
 /*Para desktop:*/
@@ -417,26 +444,24 @@ body{
 
 /*for desktop*/
 .special{
-    top:47.4%;
-    font-family: "CaslonCPswash";
-    font-size: 17.5rem;
-    font-weight: 400;
+    top:50%;
+    font-family: "Altabaixa2";
+    font-size: 18.75rem;
     font-style: normal;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 /*tablet*/
 @media only screen and (max-width: 1024px){
     .special{
-        font-size: calc(17.5rem*0.60);
+        font-size: calc(18.75rem*0.60);
     }
     
 }
 /*mobile*/
 @media only screen and (max-width: 768px){
     .special{
-        font-size: calc(17.5rem*0.40);
+        font-size: calc(18.75rem*0.40);
     }
     
 }
@@ -447,26 +472,25 @@ body{
 
 /*for desktop*/
 .believe{
-    top:47.4%;
-    font-family: "CaslonCPswash";
-    font-size: 17.5rem;
-    font-weight: 400;
+    top:43.8%;
+    font-family:Helvetica, sans-serif;
+    font-size: 12.5rem;
+    font-weight:bold;
     font-style: normal;
     line-height: normal;
-    text-transform: capitalize;
 }
 
 /*tablet*/
 @media only screen and (max-width: 1024px){
     .believe{
-        font-size: calc(17.5rem*0.60);
+        font-size: calc(12.5rem*0.60);
     }
     
 }
 /*mobile*/
 @media only screen and (max-width: 768px){
     .believe{
-        font-size: calc(17.5rem*0.40);
+        font-size: calc(12.5rem*0.40);
     }
     
 }
@@ -476,26 +500,25 @@ body{
 
 /*for desktop*/
 .cant{
-    top:47.4%;
-    font-family: "CaslonCPswash";
-    font-size: 17.5rem;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    text-transform: capitalize;
+    top:40.5%;
+    font-family:"ITC Garamond Std";
+    font-size: 15rem;
+	font-style:normal;
+	font-weight:700;
+    
 }
 
 /*tablet*/
 @media only screen and (max-width: 1024px){
     .cant{
-        font-size: calc(17.5rem*0.60);
+        font-size: calc(15rem*0.60);
     }
     
 }
 /*mobile*/
 @media only screen and (max-width: 768px){
     .cant{
-        font-size: calc(17.5rem*0.40);
+        font-size: calc(15rem*0.40);
     }
     
 }
