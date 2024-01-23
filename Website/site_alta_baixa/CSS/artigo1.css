@@ -127,8 +127,8 @@ body{
 
 /*for desktop*/
 .works{
-    top:47%;
-    font-family: "Franklin Gothic Demi"; /*n ta a funcionar :c*/
+    top:46.8%;
+    font-family:"Franklin Gothic Demi", sans-serif;
     font-size: 17rem;
     line-height: normal;
     font-weight: 600;
@@ -154,7 +154,7 @@ body{
 /*for desktop*/
 .history{
     top:47.25%;
-    font-family: "Eurostile LT Std"; /*n ta a funcionar :c*/
+    font-family: "Eurostile LT Std", sans-serif; 
     font-size: 15.5rem;
     line-height: normal;
     font-weight: 700;
@@ -209,7 +209,7 @@ body{
 
 /*for desktop*/
 .designed{
-    top:44.5%;
+    top:44.4%;
     font-family: "MrsEaves-Bold"; /*n ta a funcionar :c*/
     font-size: 12.5rem;
     font-style: normal;
@@ -270,9 +270,9 @@ body{
 /*for desktop*/
 .made{
     top:37.4%;
-    font-family: "Eras Bold ITC";
+    font-family: "Eras Bold ITC", sans-serif; /*n funciona...*/
     font-size: 18.75rem;
-    font-weight: 400;
+    font-weight: normal;
     font-style: normal;
     line-height: normal;
 }
@@ -299,8 +299,8 @@ body{
 
 /*for desktop*/
 .reminds{
-    top:37.4%;
-    font-family: "Eras Bold ITC";
+    top:36.6%;
+    font-family:"Futura Hv BT", sans-serif;
     font-size: 18.75rem;
     font-weight: 400;
     font-style: normal;
@@ -328,7 +328,30 @@ body{
 /*S-20 08 Beautifull capa*/
 
 /*for desktop*/
-/*cooonnnnttt*/
+.beautiful{
+    top:47.4%;
+    font-family: "CaslonCPswash";
+    font-size: 17.5rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+    .beautiful{
+        font-size: calc(17.5rem*0.60);
+    }
+    
+}
+/*mobile*/
+@media only screen and (max-width: 768px){
+    .beautiful{
+        font-size: calc(17.5rem*0.40);
+    }
+    
+}
 
 
 /*****CONTENTOR 22*****/
