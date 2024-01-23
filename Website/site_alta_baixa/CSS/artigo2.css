@@ -7,6 +7,11 @@
     background-color: #fff;  
 }
 
+.s2-4{
+    position: relative; 
+    background-color: #fff;  
+}
+
 header {
     position: fixed;
     top: 0; 
@@ -194,4 +199,62 @@ header img {
     .image-container1 img {
         height: 70%;
         width: 100%s;
+    }
+
+    .video-container1 {
+        position: absolute;
+        left: 2200px;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .video-container1 video {
+        width: 100%;
+        height: auto;
+        max-height: 77%;
+    }
+
+    .content2.c2-5 {
+        position: absolute; 
+        left: 2000px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-containerrelatedwork{
+        position: absolute;
+        margin-top: 30px;
+        left: 2180px;
+        max-width: 800px;
+        text-align: justify;
+    }
+
+    .text-containerrelatedwork p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    .text-containerrelatedwork1{
+        position: absolute;
+        margin-top: 30px;
+        left: 2900px;
+        max-width: 800px;
+        text-align: justify;
+    }
+
+    .text-containerrelatedwork1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-justify: inter-word;
     }
