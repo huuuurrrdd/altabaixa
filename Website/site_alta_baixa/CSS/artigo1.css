@@ -1,3 +1,29 @@
+/***HEADER***/
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+header a, header img {
+    margin-right: 60px; 
+}
+
+header a:first-child, header img:first-child {
+    margin-right: 60px;
+}
+
+
+
 /********DEFINICOES GERAIS********/
 
 /*Para desktop:*/
