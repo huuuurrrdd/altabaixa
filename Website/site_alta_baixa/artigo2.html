@@ -297,27 +297,87 @@
               <source src="video/capaabstract1.mp4" type="video/mp4">
               Seu navegador não suporta vídeos HTML5.
           </video>
+        </div>
         </section>
 
         <section class = "s2-9">
           <div class="content2 c2-9">
-            <h1>(9) Related Work1</h1>
-            <p>Conteúdo</p>
+            <h1 class="title normal-title">Results</h1>
+            <h1 class="title inverted-title">Results </h1>
           </div>
+          <div class="text-container-latentrepresentation">
+            <p>The VAE and sketch decoder trained for 50 epochs with a learning rate of 0.001 and a batch size of 256. 
+              As mentioned before, we use 2623 64 × 64px black and white images of skeletons for each capital letter of 
+              the Latin alphabet, so our dataset is constituted of 68 198 images.. </p>
+          </div>
+      
         </section>
 
         <section class = "s2-10">
           <div class="content2 c2-10">
-            <h1>(10) Related Work2</h1>
-            <p>Conteúdo</p>
+            <h1 class="title normal-title">Reconstruction of Skeleton</h1>
+            <h1 class="title inverted-title">Reconstruction of Skeleton </h1>
           </div>
+          <div class="text-container-reconstruction">
+            <p>As mentioned before, the model returns a sequence of points that, when connected, create a reconstruction 
+              of the skeleton image used as input. In most cases, the generated strokes reconstruct the basic features of 
+              the skeleton. For example, in the case of the letter “A”, the network first creates one stem, then the crossbar
+              connects both stems and finally draws the second stem. Even though there is nothing to control the distance between 
+              points or to enforce them to be close, the network learns that it needs to connect both stems at the beginning and 
+              the end of the sequence. Another interesting feature observable in the reconstruction is related to how the ANN 
+              handles the letter “T”. This letter presents one of the simplest skeletons of the alphabet, so the network can 
+              learn how to generate the whole structure of the letter very quickly in comparison with others. 
+            </p>
+          </div>
+          <div class="image-container2">
+            <img src="img/Fig 3.png">
+        </div>
+        <div class="text-container-reconstruction1">
+          <p>Figure 3 presents a comparison between the original inputs and the reconstructed skeletons using a single stroke. 
+            The reconstructions of “C”, “L” or “K”, for example, are very similar. The letters “A”, “X” and “K” present a more 
+            complex challenge to the network as it needs to create a path that overlaps itself to draw the whole letter structure 
+            with only one line. Sometimes, the serif is lost in the reconstruction due to the same issue. The line must overlap 
+            itself multiple times to create the small parts without messing with the overall structure of the letter. But the 
+            other reason for this could be that the number of letters with serif is lower than the number of letters without it.<br><br>
+            In summary, even though the small details of the letters might be lost, our network is able to cree the minimal 
+            structure of the letter, generating skeletons that cannot be confused with any other letter.	
+          </p>
+        </div>
+        <div class="video-containerreconstruction">
+          <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+              <source src="video/relatedwork.mp4" type="video/mp4">
+              Seu navegador não suporta vídeos HTML5.
+          </video>
+      </div>
         </section>
 
         <section class = "s2-11">
           <div class="content2 c2-11">
-            <h1>(11) Transiction3</h1>
-            <p>Conteúdo</p>
+            <h1 class="title normal-title">Latent representation of font style</h1>
+            <h1 class="title inverted-title">Latent representation of font style</h1>
           </div>
+          <div class="text-container-latentrepresentationstyle">
+            <p>To understand if the trained model can learn a latent representation for the different letters that 
+              is smooth and interpretable, we need to visualise the 64-dimensional z vectors for the dataset. So 
+              we take all the images of the dataset (68198 images) and encode them using our network. Then, using the 
+              means and standard deviations of each encoded image we took a sample from the distribution. Finally, we 
+              took all the z vectors and reduced their dimensionality using the t-SNE algorithm. This allows us to reduce 
+              the z vectors from a size of 64 to two dimensions which can be translated to positions in a two-dimensional 
+              domain. For each position of a two-dimensional grid, we place the image of the best candidate. We select this 
+              candidate by finding the two-dimensional encoding closest to that position. Figure 4 presents the visualisation 
+              of the results. In general, the model can separate the different letters into clusters. In some cases, it is 
+              also possible to observe that similar letters are placed near each other, for example in the case of the letters 
+              “B”, “R” and “P”. These three letters present similar anatomical characteristics, they share a top bowl and they 
+              all have a vertical stem, thus they are placed near each other. The same happens for the letters “T” and “I” which 
+              are placed more separately from the rest but near each other. Even though the majority of the skeletons for the 
+              letter “I” is represented with a single stem, in some cases, when they have serif, they are similar to the letter 
+              “T” but with a cross stroke on the top and bottom part of the letter. This leads to both letters having a strong 
+              similarity between each other, therefore they are placed together in the latent space.
+            </p>
+          </div>
+          <div class="image-containerrepresentation">
+            <img src="img/Fig 4.png">
+        </div>
         </section>
 
         <section class = "s2-12">
