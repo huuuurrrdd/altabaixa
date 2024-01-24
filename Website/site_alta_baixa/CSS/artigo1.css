@@ -227,19 +227,6 @@ body{
     text-transform: uppercase;
 }
 
-.w, .w-2{
-    
-}
-.w{
-    /*left:0;*/
-    /*text-align:left;*/
-}
-
-.w-2{
-    right:0;
-    display:none;
-    /*text-align:right;*/
-}
 
 
 
