@@ -216,8 +216,15 @@ body{
 
 /********CONTENTOR-4********/
 /*Ascii art*/
-.asci-art{
+
+.c-4{
     width:110vw;
+    height:100vh;
+
+}
+
+.asci-art{
+    width:100vw;
     height:100vh;
     text-wrap: nowrap;
     position:absolute;
@@ -227,7 +234,19 @@ body{
     text-transform: uppercase;
 }
 
+.author1, .author2{
+    width:80%
+}
 
+.author1{
+    left:0;
+}
+
+
+.author2{
+    transform: scaleX(1);
+    right:0;
+}
 
 
 
