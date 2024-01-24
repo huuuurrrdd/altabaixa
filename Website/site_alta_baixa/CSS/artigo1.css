@@ -217,7 +217,7 @@ body{
 }
 
 
-/********CONTENTOR-4********/
+/********CONTENTOR-4 transicao (asci art)********/
 /*Ascii art*/
 
 .c-4{
@@ -392,8 +392,14 @@ body{
     
 }
 
+/*****CONTENTOR 15-transicao palavras*****/
+.t-work, .t-history, .t-there, .t-designed {
+    transform: rotate(90deg);
+}
 
-
+.t-name, .t-designe, .t-can{
+    transform: rotate(-90deg);
+}
 
 
 /*****CONTENTOR 16*****/
@@ -543,6 +549,14 @@ body{
     
 }
 
+/*****CONTENTOR 27 transicao palavras2*****/
+.t-made, .t-reminds, .t-believe{
+    transform: rotate(90deg);
+}
+
+.t-beautiful, .t-ugly, .t-boring{
+    transform:rotate(-90deg);
+}
 
 /*****CONTENTOR 27*****/
 /*S-27 11 Special capa*/
