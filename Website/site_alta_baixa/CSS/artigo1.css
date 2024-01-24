@@ -606,45 +606,45 @@ body{
 
 .t2-imagem-cima{
     position: absolute;
-    top:-260vw;
+    top:-210vw;
     width: 100vw;
     mix-blend-mode: multiply;
-    animation-duration: 10s;
-    animation-name: cimain;
+    animation: cimain 5s linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    
 }
 
 .t2-imagem-baixo{
     position:absolute;
     width:100vw;
     mix-blend-mode: multiply;
-    bottom: -260vw;
-    animation-duration: 10s;
-    animation-name: baioin;
+    bottom: -210vw;
+    animation: baioin 5s linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    
 }
 
 /*Resultaaa!!!*/
 
 @keyframes cimain{
     from{
-        top:-260vw;
+        top:-210vw;
     }
 
     to{
-        top:260vw;
+        top:40vw;
     }
 }
 
 @keyframes baioin {
     from{
-        bottom: -260vw;
+        bottom: -210vw;
     }
 
     to{
-        bottom: 260vw;
+        bottom: 40vw;
     }
 }
 
