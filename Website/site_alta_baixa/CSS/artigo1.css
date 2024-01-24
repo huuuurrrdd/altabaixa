@@ -74,11 +74,12 @@ body{
 }
 
 .because-col1{
-    grid-area: 2 / 3 / 7 / 10;
+    /*grid-area: starting row/ starting column/ ending row/ ending column*/
+    grid-area: 5 / 3  / 7 / 10;
 }
 
 .because-col2{
-    grid-area: 2 / 12 / 7 / 19;
+    grid-area: 5  / 12 / 7 / 19;
 }
 
 /*tablet*/
@@ -177,14 +178,14 @@ body{
 }
 
 .intro-col1{
-    grid-area: 2 / 3 / 7 / 10;
+    grid-area: 3 / 3 / 7 / 9;
 }
 
 .intro-col2{
-    grid-area: 2 / 12 / 7 / 19;
+    grid-area: 3 / 12 / 7 / 18;
 }
 .because{
-    grid-area: 7 / 1 / 9 / 19;
+    grid-area: 8 / 1 / 9 / 18;
 }
 
 /*for tablet*/
@@ -203,7 +204,9 @@ body{
 
 /*********CONTENTOR-2*********/
 /*s-2 intro*/
-
+.s-2{
+    background-color: beige;
+}
 
 
 
