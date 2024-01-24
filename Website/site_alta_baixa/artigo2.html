@@ -515,182 +515,103 @@
           <div class="image-containertransforming">
             <img src="img/Fig 9.png">
         </div>
+        <div class="text-container-transformingskeletons3">
+          <p>As mentioned before, our system provides a tool to facilitate the process of building these dynamic identities with a typographic 
+            component. With this tool, designers can generate skeletons and develop a filling to create their versions of glyphs. To demonstrate 
+            the application of our system we made a series of experimentations with different ways of using the obtained skeletons by our model 
+            (see Figure 9 and 10). In the first application (Figure 9), we present the interpolation* between two input glyphs. The input glyphs 
+            are represented in red and light blue while the generated one is in dark blue. <br><br>
+
+            To visualise the three superimposed glyphs, we apply the multiply effect, thus obtaining another colour that represents the common 
+            parts between the generated and the original ones. The generated glyphs are very diverse on a visual level, enabling the design of 
+            a dynamic visual identity with the use of only two fonts. We believe that the mutating factor of these results provides an identity 
+            that is easily placed side by side with the dynamic visual identities and variable fonts that are made these days. In the second 
+            application (Figure 10), the generated glyphs use just the interpolated skeletons. The stroke width is also calculated based on 
+            the input glyphs. However, the filling is further away from the traditional typographic visual aspect. Along the skeleton line, 
+            we draw a series of crosswise line segments to define the width of the glyph’ stroke. The density changes to accommodate the same 
+            number of line segments between each pair of points.
+          </p>
+        </div>
+        <div class="image-containertransforming1">
+          <img src="img/Fig 10.png">
+      </div>
+      <div class="video-containertransforming">
+        <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+            <source src="video/capaabstract1.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+        </video>
+    </div>
         </section>
 
         <section class = "s2-14">
           <div class="content2 c2-14">
-            <h1></h1>
-            <p></p>
+            <h1 class="title normal-title">Conclusion and Discussion</h1>
+            <h1 class="title inverted-title">Conclusion and Discussion</h1>
           </div>
+          <div class="text-container-conclusion">
+            <p>Since its emergence, type design has been adapting to technological advances. Nowadays, most typefaces are 
+              developed by type designers, who study the design and anatomy of each character with great precision. Type 
+              design is a difficult and time-consuming process. Our approach takes advantage of the knowledge present in 
+              the design of a typeface and the computational possibilities that ANNs provide. We propose a VAE combined 
+              with an Autoregressive model to generate glyphs’ skeletons by interpolating existing ones. Our contributions 
+              are the following, a sketch decoder capable of (i) reconstructing images of glyphs’ skeletons using a single 
+              stroke, (ii) controlling font styles by navigating the latent space, (iii) interpolating between two skeletons 
+              to create new ones. By creating interpolations between existing fonts we develop a method to help designers 
+              in making their artificial variable fonts, easing the usual glyph production. We also explored a feature of 
+              a skeleton extraction library, which calculates the stroke width at each point of the letter skeleton, to 
+              produce a fill for the generated skeletons. By interpolating between skeletons of different letters we are 
+              creating new glyph forms that resemble other existing glyphs. This opens up new exploration possibilities 
+              for the future. We envision that our approach can find use as a tool for graphic designers to facilitate 
+              font design. We can employ this system to generate new skeletons, which the designer can fill with the 
+              desired style, but also be used as inspiration seed to create new glyphs.
+
+              We expect to make several future contributions. First, we want to change the architecture of the sketch decoder 
+              to be able to use multiple strokes. In some cases, our approach was able to draw skeleton letters that require 
+              more than one line by overlapping them. 
+            </p>
+          </div>
+          <div class="text-container-conclusion1">
+            <p>However, if the sketch decoder had access to multiple strokes, this 
+              problem could be solved more easily. Finally, we intend to change the input of the network so it can receive 
+              a vector version of the skeletons instead of a pixel-based image. This way we can work with an end-to-end 
+              architecture focused on vector format leading to better quality skeletons without any loss of information.<br><br>
+              We expect to make several future contributions. First, we want to change the architecture of the sketch decoder 
+              to be able to use multiple strokes. In some cases, our approach was able to draw skeleton letters that require 
+              more than one line by overlapping them. However, if the sketch decoder had access to multiple strokes, this 
+              problem could be solved more easily. Finally, we intend to change the input of the network so it can receive 
+              a vector version of the skeletons instead of a pixel-based image. This way we can work with an end-to-end 
+              architecture focused on vector format leading to better quality skeletons without any loss of information.
+            </p>
+          </div>
+          <div class="video-containerconclusion">
+            <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+                <source src="video/relatedwork.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
         </section>
 
         <section class = "s2-15">
           <div class="content2 c2-15">
-            <h1></h1>
-            <p></p>
+            <h1 class="title normal-title">Acknowledgments</h1>
+            <h1 class="title inverted-title">Acknowledgments</h1>
           </div>
+          <div class="text-container-acknowledgments">
+            <p>This work is partially funded by national funds through the FCT - 
+              Foundation for Science and Technology, I.P., within the scope of the 
+              project CISUC - UID/CEC/00326/2020 and by European Social Fund, through 
+              the Regional Operational Program Centro 2020, and under the grant SFRH/BD/148706/2019.
+            </p>
+          </div>
+          <div class="video-containeracknowledgments">
+            <video id="videoabstract" width="1080" preload="auto" autoplay muted loop>
+                <source src="video/capaabstract1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
         </section>
 
-        <section class = "s2-16">
-          <div class="content2 c2-16">
-            <h1></h1>
-            <p></p>
-          </div>
-        </section>
-
-        <section class = "s2-17">
-          <div class="content2 c2-17">
-            <h1></h1>
-            <p></p>
-          </div>
-        </section>
-
-        <section class = "s2-18">
-          <div class="content2 c2-18">
-            <h1>(18) Results</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-19">
-          <div class="content2 c2-19">
-            <h1>(19) Reconstruction of sckeleton1</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-20">
-          <div class="content2 c2-20">
-            <h1>(20) Reconstruction of sckeleton2</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-21">
-          <div class="content2 c2-21">
-            <h1>(21) Transiction5</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-22">
-          <div class="content2 c2-22">
-            <h1>(22) Latent Representation of font styles1</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-23">
-          <div class="content2 c2-23">
-            <h1>(23) Latent Representation of font styles2</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-24">
-          <div class="content2 c2-24">
-            <h1>(24) Latent Representation of font styles3</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-25">
-          <div class="content2 c2-25">
-            <h1>(25) Exploring the latent space1</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-26">
-          <div class="content2 c2-26">
-            <h1>(26) Exploring the latent space2</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-27">
-          <div class="content2 c2-27">
-            <h1>(27) Exploring the latent space3</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-28">
-          <div class="content2 c2-28">
-            <h1>(28) Transfering skeleton into glyph1</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-29">
-          <div class="content2 c2-29">
-            <h1>(29) Transfering skeleton into glyph2</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-30">
-          <div class="content2 c2-30">
-            <h1>(30) Transfering skeleton into glyph3</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-31">
-          <div class="content2 c2-31">
-            <h1>(31) Transfering skeleton into glyph4</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-32">
-          <div class="content2 c2-32">
-            <h1>(32) Transiction6</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-33">
-          <div class="content2 c2-33">
-            <h1>(33) Conclusions and discution1</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-34">
-          <div class="content2 c2-34">
-            <h1>(34) Conclusions and discution2</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-35">
-          <div class="content2 c2-35">
-            <h1>(35) Transiction7</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-36">
-          <div class="content2 c2-36">
-            <h1>(36) Acknoledgements</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-37">
-          <div class="content2 c2-37">
-            <h1>(37) Bibliography</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
-
-        <section class = "s2-38">
-          <div class="content2 c2-38">
-            <h1>(38) Última página!</h1>
-            <p>Conteúdo</p>
-          </div>
-        </section>
+        
 
 
       </div>
