@@ -223,7 +223,7 @@ body{
 
 }
 
-.asci-art{
+.asci-art{/*provavelmente irei substituir as imagens para n ter o corte*/
     width:100vw;
     height:100vh;
     text-wrap: nowrap;
