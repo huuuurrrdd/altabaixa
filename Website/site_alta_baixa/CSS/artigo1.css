@@ -331,13 +331,13 @@ body{
 }
 
 
-/*****CONTENTOR 11 *********** [02-History] *******/
-/*S-11 04 Design capa*/
+/*****CONTENTOR 11 *********** [04-Design] *******/
+/*S-11 04-Design capa*/
 
 /*for desktop*/
 .designed{
     top:44.4%;
-    font-family: "MrsEaves-Bold"; /*n ta a funcionar :c*/
+    font-family: "MrsEaves-Bold"; 
     font-size: 12.5rem;
     font-style: normal;
     line-height: normal;
@@ -359,8 +359,8 @@ body{
 }
 
 
-/*****CONTENTOR 13*****/
-/*S-13 05 There capa*/
+/*****CONTENTOR 13 *********** [05-There] *******/
+/*S-13 05-There capa*/
 
 /*for desktop*/
 .there{
@@ -388,6 +388,15 @@ body{
 }
 
 /*****CONTENTOR 15-transicao palavras*****/
+.c-15{
+    top:0;
+    left:0;
+    width:100vw;
+    height: 100vh;
+    position:absolute;
+    
+}
+
 .t-work, .t-history, .t-there, .t-designed {
     transform: rotate(90deg);
 }
@@ -397,12 +406,14 @@ body{
 }
 
 .t-work{
+    top:20%;
     font-family:"Franklin Gothic Demi", sans-serif;
     font-size: 16.25rem;
     line-height: normal;
     font-weight: 600;
+    left:0;
 }
-
+/*
 .t-history{
     font-family: "Eurostile LT Std", sans-serif; 
     font-size: 14.375rem;
@@ -411,11 +422,18 @@ body{
 }
 
 .t-there{
-
+    font-family: "Univers 65 Bold", sans-serif;
+    font-size: 16.875 rem;
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
 }
 
-.t-designed, .t-designed{
-
+.t-designe, .t-designed{
+    font-family: "MrsEaves-Bold"; 
+    font-size: 10.75rem;
+    font-style: normal;
+    line-height: normal;
 }
 
 .t-name{
@@ -425,13 +443,16 @@ body{
 }
 
 .t-can{
-
+    font-family:"ITC Garamond Std";
+    font-size: 16.875rem;
+	font-style:normal;
+	font-weight:700;
 }
 
+*/
 
-
-/*****CONTENTOR 16*****/
-/*S-16 06 Made capa*/
+/*****CONTENTOR 16 *********** [06-Made] *******/
+/*S-16 06-Made capa*/
 
 /*for desktop*/
 .made{
@@ -460,8 +481,8 @@ body{
 
 
 
-/*****CONTENTOR 18*****/
-/*S-18 07 Reminds capa*/
+/*****CONTENTOR 18 *********** [07-Reminds] *******/
+/*S-18 07-Reminds capa*/
 
 /*for desktop*/
 .reminds{
@@ -490,8 +511,8 @@ body{
 
 
 
-/*****CONTENTOR 20*****/
-/*S-20 08 Beautifull capa*/
+/*****CONTENTOR 20 *********** [08-Beautifull] *******/
+/*S-20 08-Beautifull capa*/
 
 /*for desktop*/
 .beautiful{
@@ -520,8 +541,8 @@ body{
 }
 
 
-/*****CONTENTOR 22*****/
-/*S-22 09 Ugly capa*/
+/*****CONTENTOR 22 *********** [09-Ugly] *******/
+/*S-22 09-Ugly capa*/
 
 /*for desktop*/
 .ugly{
@@ -549,8 +570,8 @@ body{
 
 
 
-/*****CONTENTOR 24*****/
-/*S-24 10 Boring capa*/
+/*****CONTENTOR 24 *********** [10-Boring] *******/
+/*S-24 10-Boring capa*/
 
 /*for desktop*/
 .boring{
@@ -577,7 +598,16 @@ body{
     
 }
 
-/*****CONTENTOR 27 transicao palavras2*****/
+/*****CONTENTOR 26 transicao palavras2*****/
+.c-26{
+    background-color: black;
+    width:100%;
+    /*top:0;*/
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .t-made, .t-reminds, .t-believe{
     transform: rotate(90deg);
 }
@@ -587,33 +617,57 @@ body{
 }
 
 .t-made{
-
+    width:10px;
+    font-size: calc(16.875rem*.3);
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
 }
 
 .t-reminds{
-
+    font-family:"Futura Hv BT", sans-serif;
+    font-size: calc(11.875rem*.3);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
 }
 
 .t-believe{
-
+    font-family:Helvetica, sans-serif;
+    font-size: calc(12.5rem*.3);
+    font-weight:bold;
+    font-style: normal;
+    line-height: normal;
 }
 
 .t-beautiful{
-
+    font-family: "CaslonCPswash";
+    font-size: calc(13.125rem*.3);
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
 }
 
 .t-ugly{
-
+    font-family:"Bookman Swash", serif;
+    font-size: calc(15.625rem*.3);
+    font-style:italic;
+    text-transform: capitalize;
 }
 
 .t-boring{
-
+    font-family:"TradeGothic LT", sans-serif;
+    font-size: calc(14.375rem*.3);
+    font-style: normal;
+    line-height: normal;
+    font-weight:bold;
 }
 
 
 
-/*****CONTENTOR 27*****/
-/*S-27 11 Special capa*/
+/*****CONTENTOR 27 *********** [11-Special] *******/
+/*S-27 11-Special capa*/
 
 /*for desktop*/
 .special{
@@ -640,8 +694,8 @@ body{
 }
 
 
-/*****CONTENTOR 29*****/
-/*S-29 12 Believe capa*/
+/*****CONTENTOR 29 *********** [12-Believe] *******/
+/*S-29 12-Believe capa*/
 
 /*for desktop*/
 .believe{
@@ -668,8 +722,8 @@ body{
     
 }
 
-/*****CONTENTOR 31*****/
-/*S-31 13 Can't not capa*/
+/*****CONTENTOR 31 *********** [13-Can't not] *******/
+/*S-31 13-Can't not capa*/
 
 /*for desktop*/
 .cant{
