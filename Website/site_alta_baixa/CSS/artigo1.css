@@ -387,69 +387,55 @@ body{
     
 }
 
-/*****CONTENTOR 15-transicao palavras*****/
+/*****CONTENTOR 15-********[transicao2: palavras]*****/
 .c-15{
-    top:0;
-    left:0;
-    width:100vw;
-    height: 100vh;
-    position:absolute;
+    width:100%;
+    /*top:0;*/
+}
+
+.t2-imagem-cima{
+    position: absolute;
+    top:-210vw;
+    width: 100vw;
+    mix-blend-mode: multiply;
+    animation: cimain 5s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
     
 }
 
-.t-work, .t-history, .t-there, .t-designed {
-    transform: rotate(90deg);
+.t2-imagem-baixo{
+    position:absolute;
+    width:100vw;
+    mix-blend-mode: multiply;
+    bottom: -210vw;
+    animation: baioin 5s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
 
-.t-name, .t-designe, .t-can{
-    transform: rotate(-90deg);
+/*Resultaaa!!!*/
+
+@keyframes cimain{
+    from{
+        top:-210vw;
+    }
+
+    to{
+        top:40vw;
+    }
 }
 
-.t-work{
-    top:20%;
-    font-family:"Franklin Gothic Demi", sans-serif;
-    font-size: 16.25rem;
-    line-height: normal;
-    font-weight: 600;
-    left:0;
-}
-/*
-.t-history{
-    font-family: "Eurostile LT Std", sans-serif; 
-    font-size: 14.375rem;
-    line-height: normal;
-    font-weight: 700;
-}
+@keyframes baioin {
+    from{
+        bottom: -210vw;
+    }
 
-.t-there{
-    font-family: "Univers 65 Bold", sans-serif;
-    font-size: 16.875 rem;
-    font-weight: 800;
-    font-style: normal;
-    line-height: normal;
+    to{
+        bottom: 40vw;
+    }
 }
-
-.t-designe, .t-designed{
-    font-family: "MrsEaves-Bold"; 
-    font-size: 10.75rem;
-    font-style: normal;
-    line-height: normal;
-}
-
-.t-name{
-    font-family: Tiffany;
-    font-size: 14.375rem;
-    line-height: normal;
-}
-
-.t-can{
-    font-family:"ITC Garamond Std";
-    font-size: 16.875rem;
-	font-style:normal;
-	font-weight:700;
-}
-
-*/
 
 /*****CONTENTOR 16 *********** [06-Made] *******/
 /*S-16 06-Made capa*/
@@ -604,7 +590,7 @@ body{
     /*top:0;*/
 }
 
-.t2-imagem-cima{
+.t3-imagem-cima{
     position: absolute;
     top:-210vw;
     width: 100vw;
@@ -615,7 +601,7 @@ body{
     
 }
 
-.t2-imagem-baixo{
+.t3-imagem-baixo{
     position:absolute;
     width:100vw;
     mix-blend-mode: multiply;
