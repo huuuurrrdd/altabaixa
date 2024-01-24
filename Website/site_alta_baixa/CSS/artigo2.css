@@ -46,11 +46,18 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: -70px;
     background-size: cover; 
+   
     background-position: center; 
     background-repeat: no-repeat; 
   }
+
+  .content2.c2-1 img {
+    width: 100%;
+    height: 100%;
+  }
+
 
 
   .s2-2 {
@@ -61,11 +68,11 @@ header img {
 
     .content2.c2-2 {
         position: absolute; 
-        left: -100px;
+        left: -40px;
         top: 0px;
         width: auto; 
         height: auto;
-        min-height: 50px;
+        min-height: 30px;
         margin: auto; 
         display: flex;
         flex-direction: column;
@@ -75,7 +82,7 @@ header img {
     .title {
         position: relative;
         text-align: left;
-        top: 70px;
+        top: 40px;
         left: 0px;
         font-family: 'Lato', sans-serif;
         font-size: 32px;
@@ -98,7 +105,7 @@ header img {
 
     .text-container {
         position: absolute;
-        margin-top: 60px;
+        margin-top: 30px;
         left: 50px;
         max-width: 450px;
         text-wrap: wrap;
@@ -116,8 +123,8 @@ header img {
 
     .video-container {
         position: absolute;
-        left: 650px;
-        margin-top: 10px;
+        left: 550px;
+        margin-top: -10px;
         height: auto;
         top: 0;
         bottom: 0;
@@ -130,9 +137,22 @@ header img {
         max-height: 85%;
     }
 
+    
+    .content2.c2-3 {
+        position: absolute; 
+        left: -100px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 30px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
     .container1-text {
         position: absolute;
-        margin-top: 60px;
+        margin-top: 30px;
         left: 20px;
         max-width: 450px;
         text-wrap: wrap;
@@ -164,8 +184,8 @@ header img {
 
     .container2-text {
         position: absolute;
-        margin-top: 60px;
-        left: 1000px;
+        margin-top: 30px;
+        left: 900px;
         max-width: 480px;
         text-wrap: wrap;
         text-align: justify;
@@ -182,8 +202,8 @@ header img {
 
     .container3-text {
         position: absolute;
-        margin-top: 60px;
-        left: 1520px;
+        margin-top: 30px;
+        left: 1420px;
         width: 480px;
         max-width: 480px;
         text-align: justify;
@@ -200,24 +220,24 @@ header img {
 
     .image-container1 {
         position: absolute;
-        left: 1000px; 
-        top: 350px;
+        left: 920px; 
+        top: 305px;
         width: 600px;
-        height: 480px;
+        height: 400px;
         bottom: 0px;
         overflow: hidden; 
     }
 
     
     .image-container1 img {
-        height: 70%;
+        height: 75%;
         width: 100%s;
     }
 
     .video-container1 {
         position: absolute;
         left: 1800px;
-        margin-top: 10px;
+        margin-top: -10px;
         height: auto;
         top: 0px;
         bottom: 0px;
@@ -235,10 +255,10 @@ header img {
     .content2.c2-5 {
         position: absolute; 
         left: 1680px;
-        top: 0px;
+        top: 20px;
         width: auto; 
         height: auto;
-        min-height: 50px;
+        min-height: 30px;
         margin: auto; 
         display: flex;
         flex-direction: row;
@@ -246,7 +266,7 @@ header img {
 
     .text-containerrelatedwork{
         position: absolute;
-        margin-top: 60px;
+        margin-top: 30px;
         left: 1800px;
         width: 450px;
         max-width: 450px;
@@ -264,7 +284,7 @@ header img {
 
     .text-containerrelatedwork1{
         position: absolute;
-        margin-top: 60px;
+        margin-top: 30px;
         left: 2300px;
         text-wrap: wrap;
         width: 450px;
@@ -285,7 +305,7 @@ header img {
         left: 2350px;
         width: 100%;
         height: auto;
-        margin-top: 10px;
+        margin-top: -10px;
         top: 0px;
         bottom: 0px;
         overflow: hidden;
@@ -299,8 +319,8 @@ header img {
 
     .content2.c2-6 {
         position: absolute; 
-        left: 2000px;
-        top: 0px;
+        left: 2100px;
+        top: -10px;
         width: auto; 
         height: auto;
         min-height: 50px;
@@ -311,8 +331,8 @@ header img {
 
     .text-container-approach{
         position: absolute;
-        margin-top: 60px;
-        left: 2100px;
+        margin-top: 20px;
+        left: 2200px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -330,8 +350,8 @@ header img {
 
     .content2.c2-7 {
         position: absolute; 
-        left: 1200px;
-        top: 0px;
+        left: 1300px;
+        top: -10px;
         width: auto; 
         height: auto;
         min-height: 50px;
@@ -342,8 +362,8 @@ header img {
 
     .text-container-data{
         position: absolute;
-        margin-top: 60px;
-        left: 1300px;
+        margin-top: 20px;
+        left: 1380px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -361,8 +381,8 @@ header img {
 
     .content2.c2-8 {
         position: absolute; 
-        left: 450px;
-        top: 0px;
+        left: 600px;
+        top: -10px;
         width: auto; 
         height: auto;
         min-height: 50px;
@@ -373,8 +393,8 @@ header img {
 
     .text-container-networkarchitecture{
         position: absolute;
-        margin-top: 60px;
-        left: 650px;
+        margin-top: 20px;
+        left: 800px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -392,24 +412,23 @@ header img {
 
     .image-container-architecture{
         position: absolute;
-        left: 650px;
+        left: 800px;
         right: 0px; 
-        top: 350px;
-        margin-top: 30px;
+        top: 320px;
         bottom: 0px;
         width: 800px; 
         overflow: hidden; 
     }
 
     .image-container-architecture img {
-        height: auto;
+        height: 70%;
         width: 100%;
     }
 
     .text-container-networkarchitecture1{
         position: absolute;
-        margin-top: 60px;
-        left: 1150px;
+        margin-top: 20px;
+        left: 1300px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -428,8 +447,8 @@ header img {
     
     .text-container-networkarchitecture2{
         position: absolute;
-        margin-top: 60px;
-        left: 1650px;
+        margin-top: 20px;
+        left: 1800px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -447,8 +466,8 @@ header img {
 
     .text-container-networkarchitecture3{
         position: absolute;
-        margin-top: 60px;
-        left: 2150px;
+        margin-top: 20px;
+        left: 2300px;
         text-wrap: wrap;
         width: 450px;
         max-width: 1800px;
@@ -466,8 +485,8 @@ header img {
 
     .video-container3 {
         position: absolute;
-        left: 2150px;
-        margin-top: 10px;
+        left: 2350px;
+        margin-top: -10px;
         width: 100%;
         height: auto;
         top: 0;
@@ -479,4 +498,462 @@ header img {
         width: 100%;
         height: auto;
         max-height: 85%;
+    }
+
+    .content2.c2-9 {
+        position: absolute; 
+        left: 2100px;
+        top: -10px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-latentrepresentation{
+        position: absolute;
+        margin-top: 20px;
+        left: 2200px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-latentrepresentation p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .video-containerr3 {
+        position: absolute;
+        left: 2050px;
+        margin-top: -10px;
+        width: 100%;
+        height: auto;
+        top: 0;
+        bottom: 0;
+        overflow: hidden;
+    }
+    
+    .video-containerr3 video {
+        width: 100%;
+        height: auto;
+        max-height: 85%;
+    }
+
+    .content2.c2-10 {
+        position: absolute; 
+        left: 1400px;
+        top: 0px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-reconstruction{
+        position: absolute;
+        margin-top: 20px;
+        left: 1550px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-reconstruction p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .image-container2 {
+        position: absolute;
+        left: 1550px; 
+        top: 320px;
+        width: 600px;
+        height: 260px;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+
+    
+    .image-container2 img {
+        height: 100%;
+        width: 100%s;
+    }
+
+    .text-container-reconstruction1{
+        position: absolute;
+        margin-top: 20px;
+        left: 2050px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-reconstruction1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .video-containerreconstruction {
+        position: absolute;
+        left: 2300px;
+        margin-top: -10px;
+        height: auto;
+        top: 0px;
+        bottom: 0px;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .video-containerreconstruction video {
+        width: 100%;
+        height: auto;
+        max-height: 85%;
+    }
+
+    .content2.c2-11 {
+        position: absolute; 
+        left: 2300px;
+        top: 20px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-latentrepresentationstyle{
+        position: absolute;
+        margin-top: 20px;
+        left: 2450px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-latentrepresentationstyle p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .image-containerrepresentation {
+        position: absolute;
+        left: 2950px; 
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+
+    
+    .image-containerrepresentation img {
+        height: 85%;
+        width: 100%s;
+    }
+
+    .image-containerrepresentation1 {
+        position: absolute;
+        left: 3850px; 
+        top: 170px;
+        width: 100%;
+        height: 70%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+
+    
+    .image-containerrepresentation1 img {
+        height: 85%;
+        width: 100%s;
+    }
+
+    .text-container-latentrepresentationstyle1{
+        position: absolute;
+        margin-top: 20px;
+        left: 3650px;
+        text-wrap: wrap;
+        width: 450px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-latentrepresentationstyle1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-latentrepresentationstyle2{
+        position: absolute;
+        margin-top: 20px;
+        left: 4150px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+
+    .text-container-latentrepresentationstyle2 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .content2.c2-12 {
+        position: absolute; 
+        left: 3500px;
+        top: 40px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-exploringlatentspace{
+        position: absolute;
+        margin-top: 20px;
+        left: 3600px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-exploringlatentspace p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-exploringlatentspace1{
+        position: absolute;
+        margin-top: 20px;
+        left: 4120px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-exploringlatentspace1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-exploringlatentspace2{
+        position: absolute;
+        margin-top: 20px;
+        left: 4650px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-exploringlatentspace2 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-exploringlatentspacee3{
+        position: absolute;
+        margin-top: 20px;
+        left: 5180px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-exploringlatentspacee3 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-exploringlatentspace4{
+        position: absolute;
+        margin-top: 20px;
+        left: 5700px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-exploringlatentspace4 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+    
+
+    .image-containerexploration {
+        position: absolute;
+        left: 3600px; 
+        top: 300px;
+        width: 100%;
+        height: 50%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+    .image-containerexploration img {
+        height: 75%;
+        width: 100%s;
+    }
+
+    .image-containerexploration1 {
+        position: absolute;
+        left: 4400px; 
+        top: 300px;
+        width: 100%;
+        height: 50%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+    .image-containerexploration1 img {
+        height: 75%;
+        width: 100%s;
+    }
+
+    .image-containerexploration2 {
+        position: absolute;
+        left: 5200px; 
+        top: 300px;
+        width: 100%;
+        height: 50%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+    .image-containerexploration2 img {
+        height: 75%;
+        width: 100%s;
+    }
+ 
+
+    .content2.c2-13 {
+        position: absolute; 
+        left: 5000px;
+        top: 20px;
+        width: auto; 
+        height: auto;
+        min-height: 50px;
+        margin: auto; 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container-transformingskeletons{
+        position: absolute;
+        margin-top: 20px;
+        left: 5150px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-transformingskeletons p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-transformingskeletons1{
+        position: absolute;
+        margin-top: 20px;
+        left: 5680px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-transformingskeletons1 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .text-container-transformingskeletons2{
+        position: absolute;
+        margin-top: 20px;
+        left: 6210px;
+        text-wrap: wrap;
+        width: 480px;
+        max-width: 1800px;
+        text-align: justify;
+    }
+
+    .text-container-transformingskeletons2 p {
+        margin: 0;
+        font-family: 'Lato', sans-serif;
+        text-align: justify;
+        text-wrap: wrap;
+        text-justify: inter-word;
+    }
+
+    .image-containertransforming {
+        position: absolute;
+        left: 6750px; 
+        top: -10px;
+        width: 100%;
+        height: 100%;
+        bottom: 0px;
+        overflow: hidden; 
+    }
+    .image-containertransforming img {
+        height: 85%;
+        width: 100%s;
     }
