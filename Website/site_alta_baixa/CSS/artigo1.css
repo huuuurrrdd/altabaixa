@@ -62,6 +62,7 @@ body{
     mix-blend-mode: multiply;
 }
 
+
 /*tablet*/
 @media only screen and (max-width: 1024px){
     .titulo{
@@ -140,6 +141,33 @@ body{
     
 }
 
+/******Intro-CONTENTOR 1 e 2*******/
+/*for desktop*/
+.intro-art1{ /*preciso de rever!!*/
+    width:100vw;
+    height:100vh;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.intro-col1{
+    grid-area: 2 / 3 / 7 / 10;
+}
+
+.intro-col2{
+    grid-area: 2 / 12 / 7 / 19;
+}
+.because{
+    grid-area: 7 / 1 / 9 / 19;
+}
+
+/**/
+
+
 /*********CONTENTOR-2*********/
 /*s-2 intro*/
 
@@ -151,6 +179,29 @@ body{
 .s-3{
  background-color: blue;  
 }
+
+
+/********CONTENTOR-4********/
+/*Ascii art*/
+.asci-art{
+    position:absolute;
+    font-family: "Cascadia Code";
+    font-size: 0.9375rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.w{
+    left:0;
+}
+
+.w-2{
+    right:0;
+    display:none;
+}
+
+
+
 
 /*******CONTENTOR 5*******/
 /*s-5 01-works: capa*/
