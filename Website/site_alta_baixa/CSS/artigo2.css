@@ -99,6 +99,7 @@ header img {
         color: #E00918; 
         transform: scaleX(-1);
         mix-blend-mode: multiply;
+        text-align: right;
         display: block; 
         z-index: 2;
     }
@@ -954,7 +955,7 @@ header img {
         overflow: hidden; 
     }
     .image-containertransforming img {
-        height: 85%;
+        height: 70%;
         width: 100%s;
     }
 
@@ -986,7 +987,7 @@ header img {
         overflow: hidden; 
     }
     .image-containertransforming1 img {
-        height: 85%;
+        height: 75%;
         width: 100%s;
     }
 
