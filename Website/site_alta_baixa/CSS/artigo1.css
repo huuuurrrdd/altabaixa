@@ -224,8 +224,9 @@ body{
 }
 
 .asci-art{/*provavelmente irei substituir as imagens para n ter o corte*/
+    top:0;
     width:100vw;
-    height:100vh;
+    height:110vh;
     text-wrap: nowrap;
     position:absolute;
     font-family: "Cascadia Code";
