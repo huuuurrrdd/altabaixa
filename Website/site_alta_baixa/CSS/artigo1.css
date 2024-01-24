@@ -600,69 +600,55 @@ body{
 
 /*****CONTENTOR 26 transicao palavras2*****/
 .c-26{
-    background-color: black;
     width:100%;
     /*top:0;*/
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
 }
 
-.t-made, .t-reminds, .t-believe{
-    transform: rotate(90deg);
+.t2-imagem-cima{
+    position: absolute;
+    top:0%;
+    width: 100vw;
+    mix-blend-mode: multiply;
+
+    animation-duration: 5s;
+    animation-name: cimain;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.t-beautiful, .t-ugly, .t-boring{
-    transform:rotate(-90deg);
+.t2-imagem-baixo{
+    position:absolute;
+    width:100vw;
+    mix-blend-mode: multiply;
+
+    animation-duration: 3s;
+    animation-name: baioin;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.t-made{
-    width:10px;
-    font-size: calc(16.875rem*.3);
-    font-weight: normal;
-    font-style: normal;
-    line-height: normal;
+/*Resultaaa!!!*/
+/*
+@keyframes cimain{
+    from{
+        bottom: 250vh;
+    }
+
+    to{
+        bottom: -250vh;
+    }
 }
 
-.t-reminds{
-    font-family:"Futura Hv BT", sans-serif;
-    font-size: calc(11.875rem*.3);
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-}
+@keyframes baioin {
+    from{
+        bottom: -250vh;
+    }
 
-.t-believe{
-    font-family:Helvetica, sans-serif;
-    font-size: calc(12.5rem*.3);
-    font-weight:bold;
-    font-style: normal;
-    line-height: normal;
-}
+    to{
+        bottom: 250vh;
+    }
+}*/
 
-.t-beautiful{
-    font-family: "CaslonCPswash";
-    font-size: calc(13.125rem*.3);
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-    text-transform: capitalize;
-}
-
-.t-ugly{
-    font-family:"Bookman Swash", serif;
-    font-size: calc(15.625rem*.3);
-    font-style:italic;
-    text-transform: capitalize;
-}
-
-.t-boring{
-    font-family:"TradeGothic LT", sans-serif;
-    font-size: calc(14.375rem*.3);
-    font-style: normal;
-    line-height: normal;
-    font-weight:bold;
-}
 
 
 
