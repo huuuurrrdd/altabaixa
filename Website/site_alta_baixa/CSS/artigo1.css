@@ -123,7 +123,7 @@ body{
     transform: translateX(-50%) translateY(-50%);
 }*/
 
-/*********CONTENTOR-1*********/
+/*********CONTENTOR-1 capa*********/
 
 /*for desktop*/
 .s-1{
@@ -164,7 +164,7 @@ body{
     
 }
 
-/******Intro-CONTENTOR 1 e 2*******/
+/******Intro-CONTENTOR 2 e 3: Intro *******/
 /*for desktop*/
 .intro-art1{ /*preciso de rever!! é melhor focar nas colunas, as linhas fazem-se a olho*/
     width:100vw;
@@ -202,16 +202,12 @@ body{
     }
 }*/
 
-/*********CONTENTOR-2*********/
-/*s-2 intro*/
+/*********CONTENTOR-2 intro1*********/
 .s-2{
     background-color: beige;
 }
 
-
-
-
-/*********CONTENTOR-3*********/
+/*********CONTENTOR-3 intro2*********/
 .s-3{
  background-color: white;  
 }
@@ -254,9 +250,8 @@ body{
 
 
 
-/*******CONTENTOR 5*******/
+/*******CONTENTOR 5 *********** [01-works] *******/
 /*s-5 01-works: capa*/
-
 /*for desktop*/
 .works{
     top:46.8%;
@@ -280,8 +275,8 @@ body{
     
 }
 
-/*****CONTENTOR 7*****/
-/*S-5 02 History capa*/
+/*****CONTENTOR 7 *********** [02-History] *******/
+/*S-5 02-History capa*/
 
 /*for desktop*/
 .history{
@@ -309,13 +304,13 @@ body{
 
 
 
-/*****CONTENTOR 9*****/
-/*S-9 03 Name capa*/
+/*****CONTENTOR 9 *********** [03-Name] ********/
+/*S-9 03-Name capa*/
 
 /*for desktop*/
 .name{
     top:47%;
-    font-family: Tiffany; /*n ta a funcionar :c*/
+    font-family: Tiffany;
     font-size: 15.5rem;
     line-height: normal;
 }
@@ -336,7 +331,7 @@ body{
 }
 
 
-/*****CONTENTOR 11*****/
+/*****CONTENTOR 11 *********** [02-History] *******/
 /*S-11 04 Design capa*/
 
 /*for desktop*/
@@ -400,6 +395,39 @@ body{
 .t-name, .t-designe, .t-can{
     transform: rotate(-90deg);
 }
+
+.t-work{
+    font-family:"Franklin Gothic Demi", sans-serif;
+    font-size: 16.25rem;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.t-history{
+    font-family: "Eurostile LT Std", sans-serif; 
+    font-size: 14.375rem;
+    line-height: normal;
+    font-weight: 700;
+}
+
+.t-there{
+
+}
+
+.t-designed, .t-designed{
+
+}
+
+.t-name{
+    font-family: Tiffany;
+    font-size: 14.375rem;
+    line-height: normal;
+}
+
+.t-can{
+
+}
+
 
 
 /*****CONTENTOR 16*****/
@@ -557,6 +585,32 @@ body{
 .t-beautiful, .t-ugly, .t-boring{
     transform:rotate(-90deg);
 }
+
+.t-made{
+
+}
+
+.t-reminds{
+
+}
+
+.t-believe{
+
+}
+
+.t-beautiful{
+
+}
+
+.t-ugly{
+
+}
+
+.t-boring{
+
+}
+
+
 
 /*****CONTENTOR 27*****/
 /*S-27 11 Special capa*/
