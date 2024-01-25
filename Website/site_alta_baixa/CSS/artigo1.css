@@ -76,10 +76,12 @@ body{
 .because-col1{
     /*grid-area: starting row/ starting column/ ending row/ ending column*/
     grid-area: 5 / 3  / 7 / 10;
+    text-wrap: pretty;
 }
 
 .because-col2{
     grid-area: 5  / 12 / 7 / 19;
+    text-wrap: pretty;
 }
 
 /*tablet*/
@@ -179,10 +181,12 @@ body{
 
 .intro-col1{
     grid-area: 3 / 3 / 7 / 9;
+    text-wrap: balance;
 }
 
 .intro-col2{
     grid-area: 3 / 12 / 7 / 18;
+    text-wrap: balance;
 }
 .because{
     top:55vh;
@@ -263,9 +267,7 @@ body{
 
 
 /*********CONTENTOR-3 intro2*********/
-.s-3{
- background-color: white;  
-}
+
 
 
 /********CONTENTOR-4 transicao (asci art)********/
