@@ -185,24 +185,58 @@ body{
     grid-area: 3 / 12 / 7 / 18;
 }
 .because{
-    top:50vh;
+    top:55vh;
+    left:9vw;
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     font-size: 9.75rem;
     text-transform: uppercase;
     font-weight: 400;
-    mix-blend-mode: multiply;
+    
     /*grid-area: 8 / 1 / 9 / 18;*/
 }
 
-/*
-.because-1{
 
+.because-1{
+    left:9vw;
+    z-index: 3;
+    animation: movciano 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
 }
 
 .because-2{
+    position: absolute;
+    right:9vw;
+    z-index: 2;
+    text-align: left;
+    animation: movred 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 
-}*/
+
+@keyframes movciano {
+    
+    from{
+        left:9vw;
+    }
+
+    to{
+        left:90vw;
+    }
+}
+
+
+@keyframes movred {
+    from{
+        right:9vw;
+    }
+    to{
+        right:90vw;
+    }
+}
 
 
 /*for tablet*/
@@ -210,14 +244,20 @@ body{
     .intro-art1{
         font-size: calc(1.5rem*.6);
     }
+
+    .because{
+        font-size: calc(9.75rem*.6);
+    }
+
+
 }
 
-/*for mobile
+/*for mobile*/
 @media only screen and (max-width: 768px){
-    .intro-art1{
-        font-size: calc(1.5rem*.4);
+    .because{
+        font-size: calc(9.75rem*.4);
     }
-}*/
+}
 
 /*********CONTENTOR-2 intro1*********/
 
