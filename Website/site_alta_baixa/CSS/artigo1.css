@@ -185,8 +185,25 @@ body{
     grid-area: 3 / 12 / 7 / 18;
 }
 .because{
-    grid-area: 8 / 1 / 9 / 18;
+    top:50vh;
+    position: absolute;
+    z-index: 3;
+    font-size: 9.75rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    mix-blend-mode: multiply;
+    /*grid-area: 8 / 1 / 9 / 18;*/
 }
+
+/*
+.because-1{
+
+}
+
+.because-2{
+
+}*/
+
 
 /*for tablet*/
 @media only screen and (max-width: 1024px){
@@ -203,9 +220,7 @@ body{
 }*/
 
 /*********CONTENTOR-2 intro1*********/
-.s-2{
-    background-color: beige;
-}
+
 
 /*********CONTENTOR-3 intro2*********/
 .s-3{
