@@ -180,7 +180,7 @@ h1{
   position:absolute;
   z-index: 5;
   height:80%;
-  right:-95vh;
+  right:-92.5vh;
   mix-blend-mode: multiply;
   
 }
@@ -195,7 +195,7 @@ h1{
 
 @keyframes art2 {
   from{
-    right:-95vh;
+    right:-92.5vh;
   }
   to{
     right:-75vh;
@@ -213,7 +213,7 @@ h1{
   position:absolute;
   z-index: 5;
   height:60%;
-  left:-95vh;
+  left:-100vh;
   mix-blend-mode: multiply;
 }
 
@@ -228,7 +228,7 @@ h1{
 
 @keyframes art1 {
   from{
-    left:-95vh;
+    left:-100vh;
   }
   to{
     left:-75vh;
