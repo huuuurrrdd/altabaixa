@@ -76,8 +76,63 @@ html, body {
 .scroll-height{
   position:absolute;
   width: 100%;
-  text-align: center;
+  text-align: justify;
   cursor: pointer;
+}
+
+.hover-info {
+  display: none; 
+  position: absolute;
+  color: black;
+  padding: 10px;
+  border: 3px solid #61C6F1; 
+  background: white;
+  border-radius: 10px;
+  z-index: 100;
+  background-clip: padding-box;
+
+  box-shadow: 3px 3px 0 1px red;
+
+  
+}
+
+.scroll-height:hover .hover-info {
+  display: block;  
+}
+
+.editorial img {
+  position: absolute;
+  left: 290px;
+  bottom: -800px;
+  width: 150px; 
+  height: auto; 
+  cursor: pointer;
+}
+
+.colophon img {
+  position: absolute;
+  left: 290px;
+  bottom: 10px;
+  width: 150px; 
+  height: auto; 
+  cursor: pointer; 
+}
+
+
+.editorial .hover-info {
+  position: absolute;
+  top: 700px;  
+  left: 500px;
+  width: 450px;
+  
+}
+
+.colophon .hover-info {
+  position: absolute;
+  bottom: 10px; 
+  left: 500px; 
+  width: 400px;
+ 
 }
 
 .editorial{
