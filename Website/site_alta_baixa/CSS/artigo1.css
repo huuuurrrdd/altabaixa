@@ -280,9 +280,9 @@ body{
 }
 
 .asci-art{/*provavelmente irei substituir as imagens para n ter o corte*/
-    top:0;
+    top:-5vh;
     width:100vw;
-    height:110vh;
+    height:120vh;
     text-wrap: nowrap;
     position:absolute;
     font-family: "Cascadia Code";
@@ -304,6 +304,7 @@ body{
     transform: scaleX(1);
     right:0;
 }
+
 
 
 
