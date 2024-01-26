@@ -12,49 +12,42 @@
 
   <body class="home-scrol">
     <header></header> <!--Para algum menu que seja necessário-->
-    <div class = "scroll-height editorial">
-      <img src="img/editorial-02.png" alt="Editorial">
-      <span class="hover-info">Alta & Baixa is a typographic culture magazine 
-        developed in the academic context and which aims to reflect on all aspects 
-        of typography, including its history, and whose contents are deliberately 
-        eclectic. This is a magazine that aims to publish historical and contemporary, 
-        based on academic and journalistic sources. This means that the magazine must 
-        offer a mix of articles and reference materials and convey the conviction that 
-        the Design choices must be in line with the content.</span>
-    </div>
 
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100%;">
-      <img style="max-width: 100%; max-height: 100%;" src="img/AB-T 1.png" alt="" />
-    </div>
+      <div class = "scroll-height editorial">
+        <img src="img/editorial-02.png" alt="Editorial">
+        <span class="hover-info">Alta & Baixa is a typographic culture magazine 
+          developed in the academic context and which aims to reflect on all aspects 
+          of typography, including its history, and whose contents are deliberately 
+          eclectic. This is a magazine that aims to publish historical and contemporary, 
+          based on academic and journalistic sources. This means that the magazine must 
+          offer a mix of articles and reference materials and convey the conviction that 
+          the Design choices must be in line with the content.</span>
+      </div>
+  
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; width: 100%;">
+        <img style="max-width: 100%; max-height: 100%;" src="img/AB-T 1.png" alt="" />
+      </div>
+  
+     
+  
+      <div class="scroll-height colophon">
+        <img src="img/colophon.png" alt="Colophon">
+        <span class="hover-info">Edition: MDM/FCTUC
+          <br/>Design: Ema Gomes, Jorge Antunes, Natália Magalhães
+          <br/>Circulation: 200 exemplares
+          <br/>Year: 2024
+          <br/>ISBN:</div>
+        </span>
+      </div>
+
 
     <a href="artigo2.html"><!--<div class = "artigo artigo1">Artigo 2</div>-->
-    <img src="img/segundoartigotitulo.png" class="titulo-art2 scroll-art2" alt="titulo-art2"></a> 
-    <a href="artigo1.html#sec_1"><!--<div class = "artigo artigo2">Artigo 1</div>-->
-    <img src="img/art1_im2.png" class="titulo-art1 scroll-art1" alt="titulo-art1"></a> 
-
-
-    <div class="scroll-height colophon">
-      <img src="img/colophon.png" alt="Colophon">
-      <span class="hover-info">Edition: MDM/FCTUC
-        <br/>Design: Ema Gomes, Jorge Antunes, Natália Magalhães
-        <br/>Circulation: 200 exemplares
-        <br/>Year: 2024
-        <br/>ISBN:</div>
-      </span>
+      <img src="img/segundoartigotitulo.png" class="titulo-art2 scroll-art2" alt="titulo-art2"></a> 
+      <a href="artigo1.html#sec_1"><!--<div class = "artigo artigo2">Artigo 1</div>-->
+      <img src="img/art1_im2.png" class="titulo-art1 scroll-art1" alt="titulo-art1"></a> 
+  
+   
     </div>
-    </div>
-   <!-- Ideia: Ao click desaparece o filtro; ao ir para o artigo 1, o filtro vai ficando azul; ao ir para o artigo 2, vai ficando vermelho-->
-    <!--<script src="sketch.js"></script>-->
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -70,10 +63,11 @@
         art2.classList.remove("scroll-art2");
 
       document.addEventListener("wheel", (evt) => {
+        /*
         evt.preventDefault();
         window.scrollBy({
           left: evt.deltaY,
-        });
+        });*/
 
         //tenho de ver como passo para outra página tendo o scroll negativo e estando na sec_1
 
