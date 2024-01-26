@@ -481,11 +481,30 @@
 
     <!--<script src="sketch.js"></script>-->
     <script>
+
+      let total = 0;
+
       document.addEventListener("wheel", (evt) => {
         evt.preventDefault();
         window.scrollBy({
           left: evt.deltaY,
         });
+
+
+        var x = evt.deltaY;
+       
+
+        if(x > 0){//scroll down
+          total+=100;
+        }else if(x < 0){ //scroll up
+          total-=100;
+        }
+
+
+        //console.log("Valor de scroll:" + x);
+        console.log("Total:" + total);
+
+
       });
 
     </script>
