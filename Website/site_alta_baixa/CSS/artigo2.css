@@ -417,12 +417,12 @@ header img {
         right: 0px; 
         top: 320px;
         bottom: 0px;
-        width: 800px; 
+        width: 60%; 
         overflow: hidden; 
     }
 
     .image-container-architecture img {
-        height: 70%;
+        height: 75%;
         width: 100%;
     }
 
@@ -584,8 +584,8 @@ header img {
         position: absolute;
         left: 1550px; 
         top: 320px;
-        width: 600px;
-        height: 260px;
+        width: 100%;
+        height: 35%;
         bottom: 0px;
         overflow: hidden; 
     }
@@ -667,8 +667,8 @@ header img {
         position: absolute;
         left: 2950px; 
         top: 0px;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         bottom: 0px;
         overflow: hidden; 
     }
@@ -682,9 +682,9 @@ header img {
     .image-containerrepresentation1 {
         position: absolute;
         left: 3850px; 
-        top: 170px;
-        width: 100%;
-        height: 70%;
+        top: 270px;
+        width: 90%;
+        height: 60%;
         bottom: 0px;
         overflow: hidden; 
     }
@@ -839,43 +839,43 @@ header img {
     .image-containerexploration {
         position: absolute;
         left: 3600px; 
-        top: 300px;
-        width: 100%;
+        top: 330px;
+        width: 70%;
         height: 50%;
         bottom: 0px;
         overflow: hidden; 
     }
     .image-containerexploration img {
-        height: 75%;
-        width: 100%s;
+        height: 60%;
+        width: 70%s;
     }
 
     .image-containerexploration1 {
         position: absolute;
-        left: 4400px; 
-        top: 300px;
-        width: 100%;
+        left: 4500px; 
+        top: 330px;
+        width: 70%;
         height: 50%;
         bottom: 0px;
         overflow: hidden; 
     }
     .image-containerexploration1 img {
-        height: 75%;
-        width: 100%s;
+        height: 60%;
+        width: 70%s;
     }
 
     .image-containerexploration2 {
         position: absolute;
-        left: 5200px; 
-        top: 300px;
-        width: 100%;
+        left: 5480px; 
+        top: 330px;
+        width: 70%;
         height: 50%;
         bottom: 0px;
         overflow: hidden; 
     }
     .image-containerexploration2 img {
-        height: 75%;
-        width: 100%s;
+        height: 60%;
+        width: 70%s;
     }
  
 
@@ -949,8 +949,8 @@ header img {
         position: absolute;
         left: 6750px; 
         top: -10px;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         bottom: 0px;
         overflow: hidden; 
     }
@@ -981,8 +981,8 @@ header img {
         position: absolute;
         left: 7980px; 
         top: -10px;
-        width: 100%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         bottom: 0px;
         overflow: hidden; 
     }
