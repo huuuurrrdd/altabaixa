@@ -28,9 +28,9 @@
     </div>
 
     <a href="artigo2.html"><!--<div class = "artigo artigo1">Artigo 2</div>-->
-    <img src="img/segundoartigotitulo.png" class="titulo-art2" alt="titulo-art2"></a> 
+    <img src="img/segundoartigotitulo.png" class="titulo-art2 scroll-art2" alt="titulo-art2"></a> 
     <a href="artigo1.html#sec_1"><!--<div class = "artigo artigo2">Artigo 1</div>-->
-    <img src="img/art1_im2.png" class="titulo-art1" alt="titulo-art1"></a> 
+    <img src="img/art1_im2.png" class="titulo-art1 scroll-art1" alt="titulo-art1"></a> 
 
 
     <div class="scroll-height colophon">
@@ -64,6 +64,11 @@
       //ed.style.color="red";
       let total = 0;
 
+      let art1 = document.querySelector(".titulo-art1");
+        let art2 = document.querySelector(".titulo-art2");
+        art1.classList.remove("scroll-art1");
+        art2.classList.remove("scroll-art2");
+
       document.addEventListener("wheel", (evt) => {
         evt.preventDefault();
         window.scrollBy({
@@ -84,11 +89,27 @@
         }
 
         //coloquei o scroll a ir no 200, para que possamos colocar uma animação
-        if(total> 200){
+        if(total> 100){
           window.location = 'artigo2.html';
-        }else if(total<-200){
+        }else if(total<-100){
           window.location = 'artigo1.html#sec_1';
         }
+
+
+
+
+        
+        if(total> 0){ //ativar animacao art.2
+          art2.classList.add("scroll-art2");
+        }else if(total<0){//ativar animação art.1
+          art1.classList.add("scroll-art1");
+        } else{//desativar todas as animações
+          art1.classList.remove("scroll-art1");
+          art2.classList.remove("scroll-art2");
+        }
+
+
+
 
         //console.log("Valor de scroll:" + x);
         console.log("Total:" + total);

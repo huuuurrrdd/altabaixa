@@ -185,7 +185,7 @@ h1{
   
 }
 
-.titulo-art2:hover{
+.titulo-art2:hover, .scroll-art2{
   animation: art2 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -204,10 +204,6 @@ h1{
 
 
 
-
-
-
-
 .titulo-art1{
   top:20vh;
   position:absolute;
@@ -218,7 +214,7 @@ h1{
 }
 
 
-.titulo-art1:hover{
+.titulo-art1:hover, .scroll-art1{
   animation: art1 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
