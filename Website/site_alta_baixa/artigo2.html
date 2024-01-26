@@ -634,5 +634,20 @@
       });
 
     </script>
+    <div id="mouse-circle"></div>
+    <script>      
+      document.addEventListener('mousemove', function(e) {
+        var circle = document.getElementById('mouse-circle');
+     
+        
+        circle.style.left = e.clientX-100 + 'px';
+        circle.style.top = e.clientY-100 + 'px';
+
+
+        circle.style.display = 'block';
+
+        });
+    </script>
+    
   </body>
 </html>
