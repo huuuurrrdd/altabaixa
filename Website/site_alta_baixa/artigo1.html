@@ -508,6 +508,36 @@
       });
 
     </script>
+  </script>
+  <div id="mouse-rectangle"></div>
+  <script>   
+    var rectangle = document.getElementById('mouse-rectangle');
+    var isMouseDown = false;
+
+    document.addEventListener('mousedown', function(e) { 
+      
+      isMouseDown = !isMouseDown;
+
+      if (isMouseDown) {
+           
+            rectangle.style.left = e.clientX - 300 + 'px';
+            rectangle.style.top = e.clientY - 150 + 'px';
+            rectangle.style.display = 'block';
+        } else {
+           
+            rectangle.style.display = 'none';
+        }
+      });
+
+        document.addEventListener('mousemove', function(e) {
+       
+          if (isMouseDown) {
+            rectangle.style.left = e.clientX - 300 + 'px';
+            rectangle.style.top = e.clientY - 150 + 'px';
+        }
+    });
+   
+  </script>
 
 
   </body>

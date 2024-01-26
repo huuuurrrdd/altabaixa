@@ -635,18 +635,39 @@
 
     </script>
     <div id="mouse-circle"></div>
-    <script>      
+    <script>   
+    var circle = document.getElementById('mouse-circle');
+    var isMouseDown = false;
+
+    document.addEventListener('mousedown', function(e) { 
+      
+      isMouseDown = !isMouseDown;
+
+      if (isMouseDown) {
+           
+            circle.style.left = e.clientX - 100 + 'px';
+            circle.style.top = e.clientY - 100 + 'px';
+            circle.style.display = 'block';
+        } else {
+           
+            circle.style.display = 'none';
+        }
+      });
+    
       document.addEventListener('mousemove', function(e) {
-        var circle = document.getElementById('mouse-circle');
-     
-        
-        circle.style.left = e.clientX-100 + 'px';
-        circle.style.top = e.clientY-100 + 'px';
+       
+       if (isMouseDown) {
+        circle.style.left = e.clientX - 100 + 'px';
+        circle.style.top = e.clientY - 100 + 'px';
+     }
+ });
 
 
-        circle.style.display = 'block';
+    
 
-        });
+    
+
+  
     </script>
     
   </body>
