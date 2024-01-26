@@ -75,7 +75,7 @@ html, body {
 
 .scroll-height{
   position:absolute;
-  width: 100%;
+  max-width: 100vw;
   text-align: justify;
   cursor: pointer;
 }
@@ -153,6 +153,11 @@ h1{
   text-align: center;
 }
 
+.home-scrol{
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 .artigo{
   cursor: pointer;
   display: block;
@@ -168,6 +173,69 @@ h1{
 .artigo2{
   left:2%;
 }
+
+
+.titulo-art2{
+  top:10vh;
+  position:absolute;
+  z-index: 5;
+  height:80%;
+  right:-95vh;
+  mix-blend-mode: multiply;
+  
+}
+
+.titulo-art2:hover{
+  animation: art2 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+
+@keyframes art2 {
+  from{
+    right:-95vh;
+  }
+  to{
+    right:-75vh;
+  }
+}
+
+
+
+
+
+
+
+.titulo-art1{
+  top:20vh;
+  position:absolute;
+  z-index: 5;
+  height:60%;
+  left:-95vh;
+  mix-blend-mode: multiply;
+}
+
+
+.titulo-art1:hover{
+  animation: art1 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}
+
+
+@keyframes art1 {
+  from{
+    left:-95vh;
+  }
+  to{
+    left:-75vh;
+  }
+}
+
+
 
 
 
