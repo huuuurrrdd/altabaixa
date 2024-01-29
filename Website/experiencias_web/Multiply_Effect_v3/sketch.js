@@ -1,7 +1,7 @@
 
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(1200, 600);
   textSize(50);
   textAlign(CENTER);
   textStyle(ITALIC);
