@@ -5,8 +5,7 @@
 
 # **[altabaixa - experiencias e website](https://huuuurrrdd.github.io/altabaixa/Website/site_alta_baixa/Home.html)**
 
-Trabalho realizado em contexto académico para a cadeira de Laboratório Editorial, leccio-
-nada pelos professores Artur Alves e joão Bicker do Mestrado de Design e Multimédia da Universidade de Coimbra
+Trabalho realizado em contexto académico para a cadeira de Laboratório Editorial, leccionada pelos professores Artur Alves e joão Bicker do Mestrado de Design e Multimédia da Universidade de Coimbra
 
 ## Autores
 
