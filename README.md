@@ -10,8 +10,8 @@ nada pelos professores Artur Alves e joão Bicker do Mestrado de Design e Multim
 
 ## Autores
 
-- [JorgeAntunes](https://github.com/jmartsdesign)
 - [Natália Magalhães](https://github.com/Na-Na-Ti)
 - [Ema Gomes](https://github.com/huuuurrrdd)
+- [Jorge Antunes](https://github.com/jmartsdesign)
 
 ----
